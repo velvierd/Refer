@@ -52,7 +52,7 @@ function CreateVirtTreeNode(vCaption, vVirtIcon, vWidth, vHeight, vType)
   vTreeNode.Caption:SetParent(vTreeNode);
   vTreeNode.Caption:SetSize(vWidth - vTreeNode.VirtIcon:GetLeft() - vTreeNode.VirtIcon:GetWidth() - 113, vHeight);
   vTreeNode.Caption:SetPosition(vTreeNode.VirtIcon:GetLeft() + vTreeNode.VirtIcon:GetWidth() + 3, 0);
-  vTreeNode.Caption:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  vTreeNode.Caption:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   vTreeNode.Caption:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
   vTreeNode.Caption:SetForeColor(_G.clShadowWhite);
   vTreeNode.Caption:SetMouseVisible(false);
@@ -134,7 +134,7 @@ function BuildVirtTree(vLeftWin)
   cbVirt_Reg:SetForeColor(_G.clShadowWhite);
   cbVirt_Reg:SetCheckAlignment(Turbine.UI.CheckBox.MiddleLeft);
   cbVirt_Reg:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
-  cbVirt_Reg:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  cbVirt_Reg:SetFont(Turbine.UI.Lotro.Font.Verdana12);
   cbVirt_Reg:SetFontStyle(Turbine.UI.FontStyle.Outline);
   cbVirt_Reg:SetText(_G.Captions.cbVirt_Reg);
   cbVirt_Reg:SetVisible(true);

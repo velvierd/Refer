@@ -1415,10 +1415,10 @@ _G.Loots[8]["Instances"][5]["Bosses"][4]["Comps"][1]["Items"][1] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1090624024,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1090624026,
+   ["UnderGrID"] = 1090624025,
    ["ID"] = "0x70030793",
    ["Conditions"] = 
      {

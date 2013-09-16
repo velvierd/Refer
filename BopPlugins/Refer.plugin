@@ -3,8 +3,8 @@
 	<Information>
 		<Name>Справочная</Name>
 		<Author>Ворожей</Author>
-		<Version>Версия 3.0.3</Version>
-		<Description>Справочная база, содержащая данные о луте в инстансах, прохождению инстансов, о сетовых предметах и деяниях на добродетели, а также сборник лучших костюмов руЛотро.</Description>
+		<Version>Версия 4.1.2</Version>
+		<Description>Справочная база, содержащая данные о луте в инстансах, прохождению инстансов, о сетовых предметах и деяниях на добродетели, а также сборник лучших костюмов руЛотро, и прочая полезная информация.</Description>
 		<Image>BopPlugins/Refer/Resource/Icon.tga</Image>
 	</Information>
 	<Package>BopPlugins.Refer.Main</Package>

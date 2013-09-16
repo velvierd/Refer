@@ -452,6 +452,52 @@ _G.Loots[9]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][4] =
      };
   };
   
+_G.Loots[9]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][5] = _G.ItemData;
+_G.Loots[9]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][5] = 
+  {["ItemName"] = "Тирин-бул",
+   ["Type"] = _G.ItemTypes.Axe,
+   ["Unique"] = "",
+   ["Damage"] = "176-294",
+   ["DamageType"] = _G.DamageTypes.Com, 
+   ["DPS"] = "123.6",  
+   ["Armour"] = "",
+   ["Stats"] = 
+     {
+       ["Morale"] = "+337",
+       ["Power"] = "",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "", 
+       ["Agility"] = "+32", 
+       ["Vitality"] = "", 
+       ["Will"] = "",
+       ["Fate"] = "+32", 
+       ["B"] = "",
+       ["P"] = "",
+       ["E"] = "",
+       ["FMast"] = "+336",
+       ["TMast"] = "", 
+       ["CritR"] = "+336",
+       ["inHeal"] = "",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1090523357,
+   ["BackGrID"] = 1090519043,
+   ["ShadowGrID"] = 1090523359,
+   ["UnderGrID"] = 1090523358,
+   ["ID"] = 1879224935,
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };  
+  
 _G.Loots[9]["Instances"][2]["Bosses"][2] = {};
 _G.Loots[9]["Instances"][2]["Bosses"][2]["BossName"] = "Даргнакх";
 _G.Loots[9]["Instances"][2]["Bosses"][2]["Comps"] = {};

@@ -1,5 +1,5 @@
 _G.Loots[8]["Instances"][2] = {};
-_G.Loots[8]["Instances"][2]["InstanceName"] = "Библиотека Там Мирдайна (85 ур.)";
+_G.Loots[8]["Instances"][2]["InstanceName"] = "Библиотека Там Мирдайна (75 ур.)";
 _G.Loots[8]["Instances"][2]["Bosses"] = {};
 _G.Loots[8]["Instances"][2]["Bosses"][1] = {};
 _G.Loots[8]["Instances"][2]["Bosses"][1]["BossName"] = "Командир Питарш";

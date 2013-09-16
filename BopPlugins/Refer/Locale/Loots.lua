@@ -19,6 +19,7 @@ import (vLocalePath.."Loots_ChK");
 import (vLocalePath.."Loots_ZCh");
 import (vLocalePath.."Loots_ChM");
 import (vLocalePath.."Loots_DN");
+import (vLocalePath.."Loots_DN_sets");
 
 -- Лихолесье (фиксированный уровень)
 import (vLocalePath.."Loots_ZM");
@@ -26,6 +27,8 @@ import (vLocalePath.."Loots_TDG");
 import (vLocalePath.."Loots_PDG");
 import (vLocalePath.."Loots_SG");
 import (vLocalePath.."Loots_BGd");
+import (vLocalePath.."Loots_BGd_sets");
+import (vLocalePath.."Loots_BGd_sets85");
 
 -- В их отсутствие
 import (vLocalePath.."Loots_PP");
@@ -37,6 +40,9 @@ import (vLocalePath.."Loots_KH");
 import (vLocalePath.."Loots_ZH");
 import (vLocalePath.."Loots_SS");
 import (vLocalePath.."Loots_OD");
+
+--Древние рецепты
+import (vLocalePath.."Loots_LRec");
 
 -- Схватки (85 уровень)
 import (vLocalePath.."Loots_Sh85_PA");
@@ -70,11 +76,15 @@ import (vLocalePath.."Loots_Ort_brt");
 
 -- Великая река
 import (vLocalePath.."Loots_KF");
+import (vLocalePath.."Loots_StanB");
 
 -- Восточный Рохан
-import (vLocalePath.."Loots_LRec");
 import (vLocalePath.."Loots_Hit");
---import (vLocalePath.."Loots_");
+
+-- Дорога на Эребор
+import (vLocalePath.."Loots_VG");
+import (vLocalePath.."Loots_PI");
+import (vLocalePath.."Loots_SBD");
 
 
 --/********  Shablon ********/--

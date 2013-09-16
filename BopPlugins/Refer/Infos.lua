@@ -98,7 +98,7 @@ function CreateInfoPanel(vPart_height)
   vInfo.CampName:SetParent(vInfo);
   vInfo.CampName:SetSize(468, 18);
   vInfo.CampName:SetPosition(18,1);
-  vInfo.CampName:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  vInfo.CampName:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   vInfo.CampName:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
   vInfo.CampName:SetMouseVisible(false);
   

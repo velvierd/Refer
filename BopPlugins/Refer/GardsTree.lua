@@ -17,14 +17,14 @@ function CreateGardTreeNode(vCaption, vWidth, vHeight, vType)
   vTreeNode.Caption:SetParent(vTreeNode);
   vTreeNode.Caption:SetSize(vWidth, vHeight);
   vTreeNode.Caption:SetPosition(23, 0);
-  vTreeNode.Caption:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  vTreeNode.Caption:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   vTreeNode.Caption:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
   vTreeNode.Caption:SetForeColor(_G.clShadowWhite);
   vTreeNode.Caption:SetMouseVisible(false);
   vTreeNode.Caption:SetText("- "..vCaption);
   vTreeNode.Caption:SetVisible(true);
   if vType == 1 then
-    vTreeNode.Caption:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);    
+    vTreeNode.Caption:SetFont(Turbine.UI.Lotro.Font.Verdana14);    
     vTreeNode.Caption:SetText(vCaption);
   end;  
   

@@ -2139,3 +2139,343 @@ _G.Gards[22].Suits[2].F_Id = 1879182714;
 _G.Gards[22].Suits[2].F_Cl = _G.ColorName[12];
 _G.Gards[22].Suits[2].B_Id = 1879233816;
 _G.Gards[22].Suits[2].B_Cl = _G.ColorName[12];
+
+    -- На моё усмотрение "Новые" --
+_G.Gards[23] = {};
+_G.Gards[23].Letter = "Новые";
+_G.Gards[23].Suits = {};
+
+_G.Gards[23].Suits[1] = {};
+_G.Gards[23].Suits[1].SuitName = "Брийский Ловелас";
+_G.Gards[23].Suits[1].Autor = "Marissabellemoon";
+_G.Gards[23].Suits[1].Image = "B_Lov.tga";
+_G.Gards[23].Suits[1].Descr = [[
+Голова - Красивая шляпа с пером (лавка ВКО,цвет - черный)
+ 
+ Плечи - Наплечники могучих стихов (Морийский сет менестреля, цвет - черный)
+ 
+ Торс - бутафорская куртка спасителя города (Нынче можно взять в лагере схваток,у торговца реквизитом, цвет - белый)
+ 
+ Руки - перчатки западной марки (покупка дополнения)
+ 
+ Поножи - Гартроу (Данным поножам можно спокойно найти альтернативу - у любого портного,а также выполнение некоторых квестов. Также замечены в сундуках Кх, цвет - черный)
+ 
+ Ступни - Башмаки Западной марки (покупка дополнения)]];
+_G.Gards[23].Suits[1].He_Id = 1879203028;
+_G.Gards[23].Suits[1].He_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[1].Sh_Id = 1879112368;
+_G.Gards[23].Suits[1].Sh_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[1].Ch_Id = 1879234558;
+_G.Gards[23].Suits[1].Ch_Cl = _G.ColorName[12];
+_G.Gards[23].Suits[1].Ha_Id = 1879210046;
+_G.Gards[23].Suits[1].Ha_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[1].L_Id = 1879056761;
+_G.Gards[23].Suits[1].L_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[1].F_Id = 1879208215;
+_G.Gards[23].Suits[1].F_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[1].B_Id = 0;
+_G.Gards[23].Suits[1].B_Cl = "";
+
+_G.Gards[23].Suits[2] = {};
+_G.Gards[23].Suits[2].SuitName = "Вор-джентльмен";
+_G.Gards[23].Suits[2].Autor = "Ворожей";
+_G.Gards[23].Suits[2].Image = "Vor_d.tga";
+_G.Gards[23].Suits[2].Descr = [[
+Голова: Головная повязка изенгардского пленника (Чёрный) - получается по эпосу в Изенгарде.
+ 
+ Торс: Куртка из толстой шкуры марала (Чёрный) - получается по квесту Заблудившийся олень в Форохеле, Сури-кила, такие же доспехи можно сделать портным (Сверкающие гномьи доспехи, лёгкие, 45 ур).
+ 
+ Руки: Перчатки Лавангеброна либо другие из сетового комплекта Изенгарда для Хранителя мудрости (по умолчанию).
+ 
+ Поножи: Поножи мудрого оленя (Чёрный) - получаются по квесту Праздник Бегущего оленя, Дунланд: Трам Дренг.
+ 
+ Ступни: Стёганые башмаки (Белый) - создают ремесленники и, вроде бы, можно купить в магазине лёгких доспехов начальных локаций.
+ 
+ Спина: Сумка охотника за сокровищами (по умолчанию) - получается на ивенте "Охота за сокровищами".]];
+_G.Gards[23].Suits[2].He_Id = 1879221554;
+_G.Gards[23].Suits[2].He_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[2].Sh_Id = 0;
+_G.Gards[23].Suits[2].Sh_Cl = "";
+_G.Gards[23].Suits[2].Ch_Id = 1879106993;
+_G.Gards[23].Suits[2].Ch_Cl = _G.ColorName[12];
+_G.Gards[23].Suits[2].Ha_Id = 1879225035;
+_G.Gards[23].Suits[2].Ha_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[2].L_Id = 1879212998;
+_G.Gards[23].Suits[2].L_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[2].F_Id = 1879052026;
+_G.Gards[23].Suits[2].F_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[2].B_Id = 1879210276;
+_G.Gards[23].Suits[2].B_Cl = _G.ColorName[0];
+
+_G.Gards[23].Suits[3] = {};
+_G.Gards[23].Suits[3].SuitName = "Гладиатор Брамлин";
+_G.Gards[23].Suits[3].Autor = "Marissabellemoon";
+_G.Gards[23].Suits[3].Image = "Glad.tga";
+_G.Gards[23].Suits[3].Descr = [[
+Голова: Шлем Рохана - лавка вко(цвет - бордовый)
+ 
+ Плечи: наплечники малого нуменорского щита - ОД сет защитника ( цвет - умбра)
+ 
+ Торс: Обнаженный торс - лавка вко
+ 
+ Руки: перчатки западной марки - покупка дополнения
+ 
+ Поножи: старые поножи дунладанского целителя - награда за квест в Галтреве. (цвет - бордовый)
+ 
+ Ступни: лощенные боевые сапоги энергии - Портной западной марки (цвет-умбра)
+ 
+ Спина: шелковый плащ разрушения - квест-цепочка от Лхан-Роса (убийство предводителя. цвет - алый)]];
+_G.Gards[23].Suits[3].He_Id = 1879199315;
+_G.Gards[23].Suits[3].He_Cl = _G.ColorName[13];
+_G.Gards[23].Suits[3].Sh_Id = 1879200938;
+_G.Gards[23].Suits[3].Sh_Cl = _G.ColorName[10];
+_G.Gards[23].Suits[3].Ch_Id = 1879255452;
+_G.Gards[23].Suits[3].Ch_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[3].Ha_Id = 1879210046;
+_G.Gards[23].Suits[3].Ha_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[3].L_Id = 1879214626;
+_G.Gards[23].Suits[3].L_Cl = _G.ColorName[13];
+_G.Gards[23].Suits[3].F_Id = 1879213416;
+_G.Gards[23].Suits[3].F_Cl = _G.ColorName[10];
+_G.Gards[23].Suits[3].B_Id = 1879214968;
+_G.Gards[23].Suits[3].B_Cl = _G.ColorName[25];
+
+_G.Gards[23].Suits[4] = {};
+_G.Gards[23].Suits[4].SuitName = "Колдун Тёмного Братства";
+_G.Gards[23].Suits[4].Autor = "Poisod";
+_G.Gards[23].Suits[4].Image = "Kol_TB.tga";
+_G.Gards[23].Suits[4].Descr = [[
+Лавка ВКО (перекрашено в черный)
+
+ Голова: Самодельная маска следопыта;
+ 
+ Плечи: Наплечники ловца клинков;
+ 
+ Грудь: Одежда плотника;
+ 
+ Спина: Бутафорский Виг-Фельд.]];
+_G.Gards[23].Suits[4].He_Id = 1879188771;
+_G.Gards[23].Suits[4].He_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[4].Sh_Id = 1879207141;
+_G.Gards[23].Suits[4].Sh_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[4].Ch_Id = 1879202657;
+_G.Gards[23].Suits[4].Ch_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[4].Ha_Id = 0;
+_G.Gards[23].Suits[4].Ha_Cl = "";
+_G.Gards[23].Suits[4].L_Id = 0;
+_G.Gards[23].Suits[4].L_Cl = "";
+_G.Gards[23].Suits[4].F_Id = 0;
+_G.Gards[23].Suits[4].F_Cl = "";
+_G.Gards[23].Suits[4].B_Id = 1879200611;
+_G.Gards[23].Suits[4].B_Cl = _G.ColorName[11];
+
+_G.Gards[23].Suits[5] = {};
+_G.Gards[23].Suits[5].SuitName = "Королевский сокольничий";
+_G.Gards[23].Suits[5].Autor = "Marissabellemoon";
+_G.Gards[23].Suits[5].Image = "Kor_S.tga";
+_G.Gards[23].Suits[5].Descr = [[
+Голова - красивая шляпа с пером ( лавка ВКО. Цвет - алый)
+
+ Плечи - наплечники творца рун ( сет БГ хранителя рун на 65, нынче берется в лагере схваток. Цвет - черный)
+ 
+ Торс - Дренг-Бреост( Множество аналогов можно найти в квестах Дунланда или приобрести у НПЦ в том же Дунланде. Цвет - черный)
+ 
+ Руки - перчатки западной марки ( шли в подарок к дополнению. Не красятся
+ 
+ Ступни - Начищенные кожаные ботинки (лагерь схваток - реквизит. Лавко ВКО. Цвет - черный)]];
+_G.Gards[23].Suits[5].He_Id = 1879203028;
+_G.Gards[23].Suits[5].He_Cl = _G.ColorName[25];
+_G.Gards[23].Suits[5].Sh_Id = 1879158590;
+_G.Gards[23].Suits[5].Sh_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[5].Ch_Id = 1879215402;
+_G.Gards[23].Suits[5].Ch_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[5].Ha_Id = 1879210046;
+_G.Gards[23].Suits[5].Ha_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[5].L_Id = 0;
+_G.Gards[23].Suits[5].L_Cl = "";
+_G.Gards[23].Suits[5].F_Id = 1879188743;
+_G.Gards[23].Suits[5].F_Cl = _G.ColorName[11];
+_G.Gards[23].Suits[5].B_Id = 0;
+_G.Gards[23].Suits[5].B_Cl = "";
+
+_G.Gards[23].Suits[6] = {};
+_G.Gards[23].Suits[6].SuitName = "Коршун пустошей";
+_G.Gards[23].Suits[6].Autor = "Ворожей";
+_G.Gards[23].Suits[6].Image = "Kor_P.tga";
+_G.Gards[23].Suits[6].Descr = [[
+Голова: Шлем малой нуменорской стрелы, цвет по умолчанию (ОД-сет Охотника).
+ 
+ Плечи: Наплечники Хадоллина, цвет по умолчанию (Ортханк-сет Менестреля).
+ 
+ Торс: Куртка малой нуменорской хитрости, цвет по умолчанию (ОД-сет Взломщика).
+ 
+ Руки: Перчатки малого нуменорского знака, цвет по умолчанию (ОД-сет Хранителя рун).
+ 
+ Поножи: Поножи заклинателя, цвет Синий (Эвендим) (Драйгох-сет Хранителя Мудрости).]];
+_G.Gards[23].Suits[6].He_Id = 1879203388;
+_G.Gards[23].Suits[6].He_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[6].Sh_Id = 1879225207;
+_G.Gards[23].Suits[6].Sh_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[6].Ch_Id = 1879203413;
+_G.Gards[23].Suits[6].Ch_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[6].Ha_Id = 1879203412;
+_G.Gards[23].Suits[6].Ha_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[6].L_Id = 1879218809;
+_G.Gards[23].Suits[6].L_Cl = _G.ColorName[18];
+_G.Gards[23].Suits[6].F_Id = 0;
+_G.Gards[23].Suits[6].F_Cl = "";
+_G.Gards[23].Suits[6].B_Id = 0;
+_G.Gards[23].Suits[6].B_Cl = "";
+
+_G.Gards[23].Suits[7] = {};
+_G.Gards[23].Suits[7].SuitName = "Лесная Владычица";
+_G.Gards[23].Suits[7].Autor = "Marissabellemoon";
+_G.Gards[23].Suits[7].Image = "Les_Vl.tga";
+_G.Gards[23].Suits[7].Descr = [[
+Голова - венок из свежих цветов(фермерский фестиваль. Цвет - ливственно-зеленый)
+ 
+ Плечи - наплечники хранителя мудрости (Бг сет хранителя мудрости на 65, нынче берется в лагере схваток. Цвет - оливковый)
+ 
+ Торс - бутафорская мантия повелителей зверей (Лагерь схваток - реквизит. Цвет - желтый)
+ 
+ Руки - бутафорские перчатки знающего (Лагерь схваток - реквизит. Цвет - умбра)
+ 
+ Ступни - Начищенные кожаные башмаки (лагерь схваток - реквизит. Цвет - умбра)
+ 
+ Спина - плащ осенней листвы ( Осенний фестиваль. Цвет - Желтый)]];
+_G.Gards[23].Suits[7].He_Id = 1879242275;
+_G.Gards[23].Suits[7].He_Cl = _G.ColorName[20];
+_G.Gards[23].Suits[7].Sh_Id = 1879158535;
+_G.Gards[23].Suits[7].Sh_Cl = _G.ColorName[5];
+_G.Gards[23].Suits[7].Ch_Id = 1879230837;
+_G.Gards[23].Suits[7].Ch_Cl = _G.ColorName[17];
+_G.Gards[23].Suits[7].Ha_Id = 1879233412;
+_G.Gards[23].Suits[7].Ha_Cl = _G.ColorName[10];
+_G.Gards[23].Suits[7].L_Id = 0;
+_G.Gards[23].Suits[7].L_Cl = "";
+_G.Gards[23].Suits[7].F_Id = 1879188743;
+_G.Gards[23].Suits[7].F_Cl = _G.ColorName[10];
+_G.Gards[23].Suits[7].B_Id = 1879191232;
+_G.Gards[23].Suits[7].B_Cl = _G.ColorName[17];
+
+_G.Gards[23].Suits[8] = {};
+_G.Gards[23].Suits[8].SuitName = "На рыбалку!";
+_G.Gards[23].Suits[8].Autor = "silentfox43";
+_G.Gards[23].Suits[8].Image = "Na_R.tga";
+_G.Gards[23].Suits[8].Descr = [[
+Голова: Куилтол (Лагерь схваток, Форност:Легкие доспехи) Цвет: Лиловый
+ 
+ Плечи: Толстые превосходные наплечники (Крафт, Портной т5) Цвет: Лиловый
+ 
+ Торс: Арт-Крус (Т1 Опушке Фангорна) Цвет: Лиловый
+ 
+ Поножи: Надежные штурмовые поножи Западной Марки (Крафт, Портной т7) Цвет: Лиловый
+ 
+ Ступни: Обработанные нуменорские кожанные сапоги (Дроп 50лвл) Цвет: Лиловый
+ 
+ Спина: Рыбацкая сумка Цвет: Лиловый]];
+_G.Gards[23].Suits[8].He_Id = 1879075604;
+_G.Gards[23].Suits[8].He_Cl = _G.ColorName[22];
+_G.Gards[23].Suits[8].Sh_Id = 1879195716;
+_G.Gards[23].Suits[8].Sh_Cl = _G.ColorName[22];
+_G.Gards[23].Suits[8].Ch_Id = 1879226792;
+_G.Gards[23].Suits[8].Ch_Cl = _G.ColorName[22];
+_G.Gards[23].Suits[8].Ha_Id = 0;
+_G.Gards[23].Suits[8].Ha_Cl = "";
+_G.Gards[23].Suits[8].L_Id = 1879213484;
+_G.Gards[23].Suits[8].L_Cl = _G.ColorName[22];
+_G.Gards[23].Suits[8].F_Id = 1879056513;
+_G.Gards[23].Suits[8].F_Cl = _G.ColorName[22];
+_G.Gards[23].Suits[8].B_Id = 1879188688;
+_G.Gards[23].Suits[8].B_Cl = _G.ColorName[22];
+
+_G.Gards[23].Suits[9] = {};
+_G.Gards[23].Suits[9].SuitName = "Разбойник с большой дороги";
+_G.Gards[23].Suits[9].Autor = "Ворожей";
+_G.Gards[23].Suits[9].Image = "Raz_SBD.tga";
+_G.Gards[23].Suits[9].Descr = [[
+Голова: Шлем малой нуменорской стрелы, цвет по умолчанию (ОД-сет Охотника).
+ 
+ Плечи: Наплечники малого нуменорского оберега, цвет по умолчанию (ОД-сет Стража).
+ 
+ Трос: Куртка малой нуменорской хитрости, цвет по умолчанию (ОД-сет Взломщика).
+ 
+ Руки: Перчатки малого нуменорского знака, цвет по умолчанию (ОД-сет Хранителя рун).
+ 
+ Поножи: Штаны малого нуменорского знака, цвет по умолчанию (ОД-сет Хранителя рун).
+ 
+ Ступни: Башмаки малого нуменорского знака, цвет по умолчанию (ОД-сет Хранителя рун).]];
+_G.Gards[23].Suits[9].He_Id = 1879203388;
+_G.Gards[23].Suits[9].He_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[9].Sh_Id = 1879203406;
+_G.Gards[23].Suits[9].Sh_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[9].Ch_Id = 1879203413;
+_G.Gards[23].Suits[9].Ch_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[9].Ha_Id = 1879203412;
+_G.Gards[23].Suits[9].Ha_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[9].L_Id = 1879203425;
+_G.Gards[23].Suits[9].L_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[9].F_Id = 1879203397;
+_G.Gards[23].Suits[9].F_Cl = _G.ColorName[0];
+_G.Gards[23].Suits[9].B_Id = 0;
+_G.Gards[23].Suits[9].B_Cl = "";
+
+_G.Gards[23].Suits[10] = {};
+_G.Gards[23].Suits[10].SuitName = "Снегурочка";
+_G.Gards[23].Suits[10].Autor = "tatyana209";
+_G.Gards[23].Suits[10].Image = "Sneg.tga";
+_G.Gards[23].Suits[10].Descr = [[
+Голова - Прочная шляпа бодрости, легкие доспехи на 75 лвл (купила на аукционе), цвет - синий Эвендима
+ 
+ Плечи - легкие наплечники стражника Эруилана (лагерь схваток), цвет - синий Эвендим(можно и без плечей)
+ 
+ Торс - Мантия очищающего огня, лагерь буйвола, наставник Хранителей рун, цвет - синий Эвендим
+ 
+ Ступни - башмаки айокойра, цвет - синий эвендим]];
+_G.Gards[23].Suits[10].He_Id = 1879218286;
+_G.Gards[23].Suits[10].He_Cl = _G.ColorName[18];
+_G.Gards[23].Suits[10].Sh_Id = 1879175708;
+_G.Gards[23].Suits[10].Sh_Cl = _G.ColorName[18];
+_G.Gards[23].Suits[10].Ch_Id = 1879225498;
+_G.Gards[23].Suits[10].Ch_Cl = _G.ColorName[18];
+_G.Gards[23].Suits[10].Ha_Id = 0;
+_G.Gards[23].Suits[10].Ha_Cl = "";
+_G.Gards[23].Suits[10].L_Id = 0;
+_G.Gards[23].Suits[10].L_Cl = "";
+_G.Gards[23].Suits[10].F_Id = 1879107624;
+_G.Gards[23].Suits[10].F_Cl = _G.ColorName[18];
+_G.Gards[23].Suits[10].B_Id = 0;
+_G.Gards[23].Suits[10].B_Cl = "";
+
+_G.Gards[23].Suits[11] = {};
+_G.Gards[23].Suits[11].SuitName = "Укротитель из Средиземского цирка";
+_G.Gards[23].Suits[11].Autor = "Marissabellemoon";
+_G.Gards[23].Suits[11].Image = "Ukr_SC.tga";
+_G.Gards[23].Suits[11].Descr = [[
+Голова: Экстравагантная фестивальная шляпа - зимний фестиваль,квест с двойным сюжетом в конце,после выполнения обычных 30(выбор богатой стороны). Цвет - алый.
+ 
+ Плечи: Йольский шарф - зимний фестиваль,обмен за жетоны. цвет - алый.
+ 
+ Торс: Спасение Зигильбурка - эпосовый морийский квест или бутафорская версия в лавке. цвет - белый.
+ 
+ Руки: Митенки - зимний фестиваль,квест с двойным сюжетом в конце,после выполнения обычных 30(выбор бедняков). Цвет - алый.
+ 
+ Поножи: Бутафорские поножи Семи Звезд - Лагерь схваток,торговец реквизитом. Цвет - белый
+ 
+ Ступни: Мягкие башмаки лесоруба - выполнение квестов в Дунланде (есть много аналогов, причем также квестовых). Цвет - алый
+ 
+ Спина: Сумка охотника за сокровищами - эвент поиска сокровищ(свыкопанные сундуки). Цвет-белый.]];
+_G.Gards[23].Suits[11].He_Id = 1879199297;
+_G.Gards[23].Suits[11].He_Cl = _G.ColorName[25];
+_G.Gards[23].Suits[11].Sh_Id = 1879199305;
+_G.Gards[23].Suits[11].Sh_Cl = _G.ColorName[25];
+_G.Gards[23].Suits[11].Ch_Id = 1879145648;
+_G.Gards[23].Suits[11].Ch_Cl = _G.ColorName[12];
+_G.Gards[23].Suits[11].Ha_Id = 1879199308;
+_G.Gards[23].Suits[11].Ha_Cl = _G.ColorName[25];
+_G.Gards[23].Suits[11].L_Id = 1879230819;
+_G.Gards[23].Suits[11].L_Cl = _G.ColorName[12];
+_G.Gards[23].Suits[11].F_Id = 1879215241;
+_G.Gards[23].Suits[11].F_Cl = _G.ColorName[25];
+_G.Gards[23].Suits[11].B_Id = 1879210276;
+_G.Gards[23].Suits[11].B_Cl = _G.ColorName[12];

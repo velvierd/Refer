@@ -885,10 +885,10 @@ _G.Loots[2]["Instances"][3]["Bosses"][3]["Comps"][2]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091574711,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091574710,
+   ["UnderGrID"] = 1091574709,
    ["ID"] = "0x7001EC2D",
    ["Conditions"] = 
      {
@@ -977,10 +977,10 @@ _G.Loots[2]["Instances"][3]["Bosses"][3]["Comps"][2]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091574708,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091574707,
+   ["UnderGrID"] = 1091574706,
    ["ID"] = "0x7001EC28",
    ["Conditions"] = 
      {

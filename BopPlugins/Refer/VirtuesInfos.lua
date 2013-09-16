@@ -15,7 +15,7 @@ function CreateTool(vName, vText)
   vTB:SetSize(300, 100);
   vTB:SetPosition(23, 30);
   vTB:SetForeColor(_G.clShadowWhite);
-  vTB:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  vTB:SetFont(Turbine.UI.Lotro.Font.Verdana12);
   vTB:SetText(vText);
   
   local vSB = Turbine.UI.Lotro.ScrollBar();
@@ -150,7 +150,7 @@ function CreateVirtInfoPanel(vPart_height, inItem)
   vInfo.LocName:SetParent(vInfo);
   vInfo.LocName:SetSize(414, 18);
   vInfo.LocName:SetPosition(24, 1);
-  vInfo.LocName:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  vInfo.LocName:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   vInfo.LocName:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
   vInfo.LocName:SetMouseVisible(true);
   vInfo.LocName.MouseClick = function(sender, args)
@@ -171,7 +171,7 @@ function CreateVirtInfoPanel(vPart_height, inItem)
   vInfo.Add:SetSize(18, 18);
   vInfo.Add:SetPosition(436, 0);
   vInfo.Add:SetForeColor(_G.clNiceGreen);
-  vInfo.Add:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  vInfo.Add:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   vInfo.Add:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
   vInfo.Add:SetMouseVisible(false);
   
@@ -181,7 +181,7 @@ function CreateVirtInfoPanel(vPart_height, inItem)
   vInfo.DescrBox:SetPosition(5, 21);
   vInfo.DescrBox:SetForeColor(_G.clShadowWhite);
   vInfo.DescrBox:SetBackColor(Turbine.UI.Color(11/255, 11/255, 21/255));
-  vInfo.DescrBox:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  vInfo.DescrBox:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   vInfo.DescrBox:SetSize(441, vInfo:GetHeight() - 25);
   vInfo.DescrBox:SetReadOnly(true);
       
@@ -269,7 +269,7 @@ function BuildVirtInfoWin(vRightWin, vRegions, vVirtue, vSaveRegions, vVirtTree)
   
   local lVirtueLvl = Turbine.UI.Label();
   lVirtueLvl:SetParent(cVirtueTitle);
-  lVirtueLvl:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  lVirtueLvl:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   lVirtueLvl:SetForeColor(_G.clShadowWhite);
   lVirtueLvl:SetSize(150, 16);
   lVirtueLvl:SetPosition(15, 12);
@@ -278,7 +278,7 @@ function BuildVirtInfoWin(vRightWin, vRegions, vVirtue, vSaveRegions, vVirtTree)
   
   local tbVirtueLvl = Turbine.UI.Lotro.TextBox();
   tbVirtueLvl:SetParent(cVirtueTitle);
-  tbVirtueLvl:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  tbVirtueLvl:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   tbVirtueLvl:SetForeColor(_G.clShadowWhite);
   tbVirtueLvl:SetSize(30, 16);
   tbVirtueLvl:SetPosition(155, 12);
@@ -287,7 +287,7 @@ function BuildVirtInfoWin(vRightWin, vRegions, vVirtue, vSaveRegions, vVirtTree)
   
   local lVirtueDescr = Turbine.UI.Label();
   lVirtueDescr:SetParent(cVirtueTitle);
-  lVirtueDescr:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  lVirtueDescr:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   lVirtueDescr:SetForeColor(_G.clNiceGreen);
   lVirtueDescr:SetSize(vRightWin:GetWidth() - 30, 75);
   lVirtueDescr:SetPosition(15, 25);
@@ -295,7 +295,7 @@ function BuildVirtInfoWin(vRightWin, vRegions, vVirtue, vSaveRegions, vVirtTree)
   
   local bVirtueLvl = Turbine.UI.Lotro.Button();
   bVirtueLvl:SetParent(cVirtueTitle);
-  bVirtueLvl:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  bVirtueLvl:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   bVirtueLvl:SetForeColor(_G.clShadowWhite);
   bVirtueLvl:SetSize(20, 16);
   bVirtueLvl:SetPosition(190, 10);
@@ -307,7 +307,7 @@ function BuildVirtInfoWin(vRightWin, vRegions, vVirtue, vSaveRegions, vVirtTree)
   
   local tbVirtueCpt = Turbine.UI.Label();
   tbVirtueCpt:SetParent(cVirtueTitle);
-  tbVirtueCpt:SetFont(Turbine.UI.Lotro.Font.TrajanPro18);
+  tbVirtueCpt:SetFont(Turbine.UI.Lotro.Font.Verdana18);
   tbVirtueCpt:SetTextAlignment(Turbine.UI.ContentAlignment.TopCenter);
   tbVirtueCpt:SetForeColor(_G.clWhite);
   tbVirtueCpt:SetSize(225, 20);

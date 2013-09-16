@@ -55,7 +55,7 @@ function CreateProgressBar(vWidth)
           ProgressBar.Caption:SetOpacity(0);
           ProgressBar.Caption:SetPosition(14, 3);
           ProgressBar.Caption:SetForeColor(_G.clShadowWhite);
-          ProgressBar.Caption:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+          ProgressBar.Caption:SetFont(Turbine.UI.Lotro.Font.Verdana12);
           ProgressBar.Caption:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
           ProgressBar.Caption:SetVisible(true);
           

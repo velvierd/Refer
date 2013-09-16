@@ -229,7 +229,7 @@ function SetData (vDataArr)
   ItemType:SetParent(_G.ToolTipWin);
   ItemType:SetSize(200, 14);
   ItemType:SetPosition(45, 50);
-  ItemType:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  ItemType:SetFont(Turbine.UI.Lotro.Font.Verdana12);
   ItemType:SetFontStyle(Turbine.UI.FontStyle.Outline);
   ItemType:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleRight);
   ItemType:SetForeColor(_G.clWhite);
@@ -237,7 +237,7 @@ function SetData (vDataArr)
   
   local Damage = Turbine.UI.Label();
   Damage:SetParent(_G.ToolTipWin);
-  Damage:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  Damage:SetFont(Turbine.UI.Lotro.Font.Verdana12);
   Damage:SetFontStyle(Turbine.UI.FontStyle.Outline);
   Damage:SetTextAlignment(Turbine.UI.ContentAlignment.TopLeft);
   Damage:SetForeColor(_G.clWhite);
@@ -251,7 +251,7 @@ function SetData (vDataArr)
   
   local Armor = Turbine.UI.Label();
   Armor:SetParent(_G.ToolTipWin);
-  Armor:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  Armor:SetFont(Turbine.UI.Lotro.Font.Verdana12);
   Armor:SetFontStyle(Turbine.UI.FontStyle.Outline);
   Armor:SetTextAlignment(Turbine.UI.ContentAlignment.TopLeft);
   Armor:SetForeColor(_G.clShadowWhite);
@@ -281,7 +281,7 @@ function SetData (vDataArr)
         Stat_count = Stat_count + 1;
         local vStat = Turbine.UI.Label();
         vStat:SetSize(220, 13);
-        vStat:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+        vStat:SetFont(Turbine.UI.Lotro.Font.Verdana12);
         vStat:SetFontStyle(Turbine.UI.FontStyle.Outline);
         vStat:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
         vStat:SetForeColor(_G.clNiceGreen);
@@ -293,7 +293,7 @@ function SetData (vDataArr)
   
   local Other = Turbine.UI.Label();
   Other:SetParent(_G.ToolTipWin);
-  Other:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  Other:SetFont(Turbine.UI.Lotro.Font.Verdana12);
   Other:SetFontStyle(Turbine.UI.FontStyle.Outline);
   Other:SetTextAlignment(Turbine.UI.ContentAlignment.TopLeft);
   Other:SetForeColor(_G.clNiceGreen);
@@ -319,7 +319,7 @@ function SetData (vDataArr)
         Cond_count = Cond_count + 1;
         local vCond = Turbine.UI.Label();
         vCond:SetSize(220, 13);
-        vCond:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+        vCond:SetFont(Turbine.UI.Lotro.Font.Verdana12);
         vCond:SetFontStyle(Turbine.UI.FontStyle.Outline);
         vCond:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleRight);
         vCond:SetForeColor(_G.clWhite);

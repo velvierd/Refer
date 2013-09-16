@@ -71,19 +71,8 @@ _G.Virtues[6]["Types"][2]["Regions"][1]["Items"][1] =
 _G.Virtues[6]["Types"][2]["Regions"][2] = {};
 _G.Virtues[6]["Types"][2]["Regions"][2]["RegionName"] = _G.Regions[2].RegName;
 _G.Virtues[6]["Types"][2]["Regions"][2]["Items"] = {};
-
-_G.Virtues[6]["Types"][2]["Regions"][2]["Items"][1] = 
-  {
-   ["LocName"] = _G.Regions[2].Locs[2], 
-   ["ItemName"] = "Черная утроба",
-   ["Add"] = "1",
-   ["Descr"] = [[Убейте Глубинного стража:
- 1. Глубинный страж в Черном омуте
- 2. Глубинный страж в Затопленной сокровищнице
- 3. Глубинный страж]]
-  };
   
-_G.Virtues[6]["Types"][2]["Regions"][2]["Items"][2] = 
+_G.Virtues[6]["Types"][2]["Regions"][2]["Items"][1] = 
   {
    ["LocName"] = _G.Regions[2].Locs[8], 
    ["ItemName"] = "Убийца древнего зла Истемнета (продолжение)",
@@ -116,6 +105,17 @@ _G.Virtues[6]["Types"][2]["Regions"][4]["Items"][1] =
  1. Морхун
  2. Скум
  3. Ураут]]
+  };
+  
+_G.Virtues[6]["Types"][2]["Regions"][4]["Items"][2] = 
+  {
+   ["LocName"] = _G.Regions[2].Locs[8], 
+   ["ItemName"] = "Черная утроба",
+   ["Add"] = "1",
+   ["Descr"] = [[Убейте Глубинного стража:
+ 1. Глубинный страж в Черном омуте
+ 2. Глубинный страж в Затопленной сокровищнице
+ 3. Глубинный страж]]
   };
 
 _G.Virtues[6]["Types"][3] = {};

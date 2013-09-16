@@ -11,7 +11,7 @@ function MyTreeNode:Constructor()
   self.Caption:SetParent(self);
   self.Caption:SetSize(220,18);
   self.Caption:SetPosition(18,1);
-  self.Caption:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  self.Caption:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   self.Caption:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
   self.Caption:SetForeColor(_G.clShadowWhite);
   self.Caption:SetMouseVisible(false);
@@ -57,7 +57,7 @@ function MyBossNode:Constructor()
   self.Caption:SetSize(170,18);
   self.Caption:SetPosition(18,1);
   self.Caption:SetForeColor(_G.clShadowWhite);
-  self.Caption:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  self.Caption:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   self.Caption:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
   self.Caption:SetMouseVisible(false);
   self.Caption:SetVisible(true);

@@ -925,10 +925,10 @@ _G.Loots[2]["Instances"][6]["Bosses"][3]["Comps"][2]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091574791,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091574793,
+   ["UnderGrID"] = 1091574792,
    ["ID"] = "0x7001EC30",
    ["Conditions"] = 
      {

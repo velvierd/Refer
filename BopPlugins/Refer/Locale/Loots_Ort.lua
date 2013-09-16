@@ -1857,10 +1857,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][2]["Comps"][1]["Items"][9] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091633563,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091633565,
+   ["UnderGrID"] = 1091633564,
    ["ID"] = "0x7002B20F",
    ["Conditions"] = 
      {
@@ -2092,10 +2092,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][2]["Comps"][2]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091667251,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091667253,
+   ["UnderGrID"] = 1091667252,
    ["ID"] = "0x7002B9C4",
    ["Conditions"] = 
      {
@@ -2138,10 +2138,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][2]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091667705,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091667707,
+   ["UnderGrID"] = 1091667706,
    ["ID"] = "0x7002B9D2",
    ["Conditions"] = 
      {
@@ -2276,10 +2276,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][2]["Comps"][2]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091550379,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091609947,
+   ["UnderGrID"] = 1091550380,
    ["ID"] = "0x7002B613",
    ["Conditions"] = 
      {
@@ -2419,10 +2419,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][2]["Comps"][3]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1090556706,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1090556708,
+   ["UnderGrID"] = 1090556707,
    ["ID"] = "0x7002B29C",
    ["Conditions"] = 
      {
@@ -2649,10 +2649,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][2]["Comps"][3]["Items"][8] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091633566,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091633568,
+   ["UnderGrID"] = 1091633567,
    ["ID"] = "0x7002B234",
    ["Conditions"] = 
      {
@@ -2696,10 +2696,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][2]["Comps"][3]["Items"][9] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091633584,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091633586,
+   ["UnderGrID"] = 1091633585,
    ["ID"] = "0x7002B203",
    ["Conditions"] = 
      {
@@ -2788,10 +2788,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][2]["Comps"][3]["Items"][11] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091664976,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091664976,
+   ["UnderGrID"] = 1091664976,
    ["ID"] = "0x7002B230",
    ["Conditions"] = 
      {
@@ -2926,10 +2926,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][2]["Comps"][3]["Items"][14] =
        ["TMitig"] = "+713"
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091667206,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091667208,
+   ["UnderGrID"] = 1091667207,
    ["ID"] = "0x7002B9C6",
    ["Conditions"] = 
      {
@@ -3815,10 +3815,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][2]["Items"][1] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091667218,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091667220,
+   ["UnderGrID"] = 1091667219,
    ["ID"] = "0x7002B9A7",
    ["Conditions"] = 
      {
@@ -4183,10 +4183,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][2]["Items"][9] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091665101,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091665103,
+   ["UnderGrID"] = 1091665102,
    ["ID"] = "0x7002B610",
    ["Conditions"] = 
      {
@@ -4275,10 +4275,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][2]["Items"][11] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091633569,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091633571,
+   ["UnderGrID"] = 1091633570,
    ["ID"] = "0x7002B235",
    ["Conditions"] = 
      {
@@ -4424,6 +4424,52 @@ _G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][2]["Items"][14] =
      };
   };
 
+_G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][2]["Items"][15] = _G.ItemData;
+_G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][2]["Items"][15] = 
+  {["ItemName"] = "Иулехор",                                         
+   ["Type"] = _G.ItemTypes.Bracelet,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "",
+   ["Stats"] = 
+     {
+       ["Morale"] = "+183",
+       ["Power"] = "+160",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "", 
+       ["Agility"] = "", 
+       ["Vitality"] = "", 
+       ["Will"] = "",
+       ["Fate"] = "+101", 
+       ["B"] = "",
+       ["P"] = "",
+       ["E"] = "",
+       ["FMast"] = "",
+       ["TMast"] = "", 
+       ["CritR"] = "+704",
+       ["inHeal"] = "",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1091664928,
+   ["BackGrID"] = 1090519044,
+   ["ShadowGrID"] = 1091664930,
+   ["UnderGrID"] = 1091664929,
+   ["ID"] = 1879224879,
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
+
 _G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][3] = {};
 _G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][3]["CompName"] = _G.cComps[3];
 _G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][3]["Term"] = "";
@@ -4510,10 +4556,10 @@ _G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][3]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1090539343,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1090539345,
+   ["UnderGrID"] = 1090539344,
    ["ID"] = "0x7002B293",
    ["Conditions"] = 
      {
@@ -4740,11 +4786,103 @@ _G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][3]["Items"][7] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091625559,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 1090519044,
-   ["UnderGrID"] = 1090519044,
+   ["ShadowGrID"] = 1091625561,
+   ["UnderGrID"] = 1091625560,
    ["ID"] = 1879224881,
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
+
+_G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][3]["Items"][8] = _G.ItemData;
+_G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][3]["Items"][8] = 
+  {["ItemName"] = "Амдирхол",                                         
+   ["Type"] = _G.ItemTypes.Back,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "508",
+   ["Stats"] = 
+     {
+       ["Morale"] = "",
+       ["Power"] = "",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "", 
+       ["Agility"] = "", 
+       ["Vitality"] = "+64", 
+       ["Will"] = "",
+       ["Fate"] = "", 
+       ["B"] = "+340",
+       ["P"] = "+340",
+       ["E"] = "+340",
+       ["FMast"] = "+689",
+       ["TMast"] = "+689", 
+       ["CritR"] = "",
+       ["inHeal"] = "",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1090522482,
+   ["BackGrID"] = 1090519044,
+   ["ShadowGrID"] = 1090522484,
+   ["UnderGrID"] = 1090522483,
+   ["ID"] = 1879226756,
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
+
+_G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][3]["Items"][9] = _G.ItemData;
+_G.Loots[9]["Instances"][5]["Bosses"][3]["Comps"][3]["Items"][9] = 
+  {["ItemName"] = "Розранк",                                         
+   ["Type"] = _G.ItemTypes.Armor_leather,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "365",
+   ["Stats"] = 
+     {
+       ["Morale"] = "+183",
+       ["Power"] = "+160",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "+134", 
+       ["Agility"] = "+34", 
+       ["Vitality"] = "", 
+       ["Will"] = "",
+       ["Fate"] = "", 
+       ["B"] = "",
+       ["P"] = "",
+       ["E"] = "",
+       ["FMast"] = "",
+       ["TMast"] = "", 
+       ["CritR"] = "",
+       ["inHeal"] = "",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1091667624,
+   ["BackGrID"] = 1090519044,
+   ["ShadowGrID"] = 1091667626,
+   ["UnderGrID"] = 1091667625,
+   ["ID"] = 1879226779,
    ["Conditions"] = 
      {
        ["min_Level"] = 75

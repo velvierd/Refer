@@ -93,3 +93,42 @@ function GetCoorInWin(tLTx, tLTy, winRBx, winRBy, len, hei, delta)
   end;
   return x, y; 
 end;
+
+function numberToBinary32Float( n )
+	if n == 0 then return 0 end;
+
+	local precision = 24;
+	local sign;
+	if n > 0 then
+		sign = 0;
+	else 
+		sign = 1;
+	end
+	n = math.abs( n );
+
+	local maxn = 2^(precision - 1)
+	local exponent = math.ceil(math.log(math.floor(n))/math.log(2));
+	
+	if n > (2*maxn) then
+		while n > maxn do
+			n = n / 2;
+		end
+	else
+		while n < maxn do
+			n = n * 2;
+			if n < 0 then
+				exponent = exponent - 1;
+			end
+		end
+	end
+	
+	-- bias the exponent
+	exponent = exponent + 127
+	
+	local result = sign;
+	result = BopPlugins.Refer.Utils.bit32.lshift( result, 8 ); -- exponent is encoded on 8bits
+	result = result + exponent;
+	result = BopPlugins.Refer.Utils.bit32.lshift( result, 23 ); -- and significand on 23 bits
+	result = result + math.floor( n - 2^precision ); -- we don't store the most significant bit (always 1, as number is normalized)
+	return result;
+end

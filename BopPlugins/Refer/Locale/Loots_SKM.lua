@@ -406,10 +406,10 @@ _G.Loots[2]["Instances"][5]["Bosses"][2]["Comps"][1]["Items"][4] =
      },   
    ["Other"] = "+252 к смягчению урона кислотой",
    ["Sets"] = _G.Loots[2]["Instances"][5]["Bosses"][2]["Comps"][1]["Items"][3]["Sets"],
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1090524892,
    ["BackGrID"] = 1090519043,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1090524893,
+   ["UnderGrID"] = 1090524894,
    ["ID"] = "0x700169AC",
    ["Conditions"] = 
      {

@@ -97,7 +97,7 @@ _G.Virtues[4]["Types"][1]["Regions"][2]["Items"][1] =
 _G.Virtues[4]["Types"][1]["Regions"][2]["Items"][2] = 
   {
    ["LocName"] = _G.Regions[2].Locs[3], 
-   ["ItemName"] = "Зелем Мелек",
+   ["ItemName"] = "Зелем-Мелек",
    ["Add"] = "1",
    ["Descr"] = [[Исследовать Зелем-Мелек:
  1. Двадцать первый чертог (6.11S, 105.30W)

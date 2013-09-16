@@ -9,7 +9,7 @@ function CreateComboBox(vParent, vTopParent)
   vItem.Text:SetParent(vItem);
   --vItem.Text:SetSize(vItem:GetWidth()-22, vItem:GetHeight());
   vItem.Text:SetForeColor(_G.clShadowWhite);
-  vItem.Text:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  vItem.Text:SetFont(Turbine.UI.Lotro.Font.Verdana12);
   vItem.Text:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
   vItem.Text:SetReadOnly(true);
   
@@ -34,7 +34,8 @@ function CreateComboBox(vParent, vTopParent)
     vItem.pList:SetPosition(vParent:GetLeft()+vItem:GetLeft(), vParent:GetTop()+vItem:GetTop()+vItem:GetHeight()+1);
   else
     vItem.pList:SetPosition(vItem:GetLeft(), vItem:GetTop()+vItem:GetHeight()+1);
-  end;   
+  end;
+  vItem.pList:SetZOrder(10);   
   vItem.pList:SetVisible(false);
   
   vItem.List = Turbine.UI.ListBox();
@@ -49,6 +50,13 @@ function CreateComboBox(vParent, vTopParent)
     sender:GetParent():SetVisible(false);
     vItem:TextChanged();
   end;
+  
+  vItem.List.SizeChanged = function(sender, args)
+    local len = sender:GetItemCount();
+    for i=1, len do
+      sender:GetItem(i):SetSize(sender:GetWidth(), 20);
+    end;
+  end;
 
   vItem.ListSB = Turbine.UI.Lotro.ScrollBar();
   vItem.ListSB:SetOrientation(Turbine.UI.Orientation.Vertical);
@@ -59,15 +67,15 @@ function CreateComboBox(vParent, vTopParent)
   vItem.List:SetVerticalScrollBar(vItem.ListSB);
   
   vItem.Add = function(sender, vText, vX, vY)
-    local vTextItem = Turbine.UI.Lotro.TextBox();
+    local vTextItem = Turbine.UI.Label();
     vTextItem.x = vX;
     vTextItem.y = vY;
-    vTextItem:SetSize(vItem.List:GetWidth(), 20);
+    vTextItem:SetSize(sender.List:GetWidth(), 20);
     vTextItem:SetForeColor(_G.clShadowWhite);
-    vTextItem:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+    vTextItem:SetFont(Turbine.UI.Lotro.Font.Verdana12);
     vTextItem:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
     vTextItem:SetBackColor(_G.clDarkGray);
-    vTextItem:SetReadOnly(true);
+    --vTextItem:SetReadOnly(true);
     vTextItem:SetText(vText);
     vTextItem.MouseEnter = function(sender, args)
       sender:SetBackColor(_G.clGray);
@@ -79,13 +87,21 @@ function CreateComboBox(vParent, vTopParent)
     sender:Resize();
   end;
   
+  vItem.LoadList = function(sender, vList)
+    local vLen = #vList;
+    sender.List:ClearItems();
+    for i=1, vLen do
+      sender:Add(vList[i]);
+    end;
+  end;
+  
   vItem.ClearItems = function(sender)
     sender.Text:SetText("");
     sender.List:ClearItems();
   end;
   
   vItem.Resize = function(sender)
-    sender.Text:SetSize(vItem:GetWidth()-42, vItem:GetHeight());
+    sender.Text:SetSize(sender:GetWidth()-42, sender:GetHeight());
     sender.tbButton:SetPosition(sender.Text:GetWidth()+3, 0);
     sender.tbButton:SetSize(40, sender:GetHeight()-6);
     if sender.List:GetItemCount() > 0 then

@@ -10,7 +10,7 @@ function CreateControlPanel()
           if (args.Action == 268435635) or (args.Action == 268435579) then
             ControlPanel:SetVisible(not ControlPanel:IsVisible())
           end
-	end
+        end
         
           local vImgPath = vResPath.."/CtrlPanel/";
         --Левый верхний угол
@@ -124,7 +124,7 @@ function CreateControlPanel()
         cControlPanel:SetOpacity(1);
         cControlPanel:SetPosition(3, 3);
         cControlPanel:SetForeColor(_G.clShadowWhite);
-        cControlPanel:SetFont(Turbine.UI.Lotro.Font.TrajanPro16);
+        cControlPanel:SetFont(Turbine.UI.Lotro.Font.Verdana16);
         cControlPanel:SetTextAlignment(Turbine.UI.ContentAlignment.TopCenter);
         cControlPanel:SetText("Спр");
         cControlPanel:SetMouseVisible(true);
@@ -159,7 +159,7 @@ function CreateControlPanel()
         tbHint:SetText("");
         tbHint:SetSize(tbHint:GetTextLength()*8, 20);
         tbHint:SetForeColor(_G.clShadowWhite);
-        tbHint:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+        tbHint:SetFont(Turbine.UI.Lotro.Font.Verdana12);
         tbHint:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);        
         tbHint:SetVisible(true);
         function ShowHint(vText)
@@ -176,11 +176,44 @@ function CreateControlPanel()
           tbHintWin:SetVisible(false);
         end;
         
+        ShowHideOpt = Turbine.UI.Label();
+        ShowHideOpt:SetParent(ControlPanel);
+        ShowHideOpt:SetSize(36, 14);
+        ShowHideOpt:SetOpacity(1);
+        ShowHideOpt:SetPosition(3, 23);
+        ShowHideOpt:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
+        ShowHideOpt:SetBackground(vResPath.."Opt.tga");
+        ShowHideOpt:SetVisible(true);
+        ShowHideOpt.MouseEnter = function(sender, args)
+          ShowHideOpt:SetBackground(vResPath.."Opt_h.tga");
+        end;
+        ShowHideOpt.MouseDown = function(sender, args)
+          ShowHideOpt:SetBackground(vResPath.."Opt_d.tga");
+        end;
+        ShowHideOpt.MouseMove = function(sender, args)
+          ShowHint(_G.Captions.optWindow);
+        end;
+        ShowHideOpt.MouseClick = function(sender, args)
+          ShowOptions();
+        end;
+        ShowHideOpt.MouseUp = function(sender, args)
+          ShowHideOpt:SetBackground(vResPath.."Opt_h.tga");
+        end;
+        ShowHideOpt.MouseLeave = function(sender, args)
+          HideHint();
+          ShowHideOpt:SetBackground(vResPath.."Opt.tga");
+        end;
+        
         ShowHidePanel = Turbine.UI.Label();
         ShowHidePanel:SetParent(ControlPanel);
-        ShowHidePanel:SetSize(36, 27);
+        if settings.ShowMain_inQP then
+          ShowHidePanel:SetSize(36, 27);
+          ShowHidePanel:SetPosition(3, ShowHideOpt:GetTop()+ShowHideOpt:GetHeight()+4);
+        else
+          ShowHidePanel:SetSize(36, 0);
+          ShowHidePanel:SetPosition(3, ShowHideOpt:GetTop()+ShowHideOpt:GetHeight());
+        end;
         ShowHidePanel:SetOpacity(1);
-        ShowHidePanel:SetPosition(3, 23);
         ShowHidePanel:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
         ShowHidePanel:SetBackground(vResPath.."LootBtn.tga");
         ShowHidePanel:SetVisible(true);
@@ -195,11 +228,6 @@ function CreateControlPanel()
         end;
         ShowHidePanel.MouseClick = function(sender, args)
           ToolTipWin:SetVisible(not ToolTipWin:IsVisible());
---          if ToolTipWin:IsVisible() then
---            ToolTipWin:SetZOrder(2)
---          else
---            ToolTipWin:SetZOrder(0)
---          end;   
         end;
         ShowHidePanel.MouseUp = function(sender, args)
           ShowHidePanel:SetBackground(vResPath.."LootBtn_h.tga");
@@ -213,11 +241,12 @@ function CreateControlPanel()
         ShowHideVirt:SetParent(ControlPanel);
         if settings.ShowVirt_inQP then
           ShowHideVirt:SetSize(36, 27);
+          ShowHideVirt:SetPosition(3, ShowHidePanel:GetTop()+ShowHidePanel:GetHeight()+4);
         else
           ShowHideVirt:SetSize(36, 0);
+          ShowHideVirt:SetPosition(3, ShowHidePanel:GetTop()+ShowHidePanel:GetHeight());
         end;  
         ShowHideVirt:SetOpacity(1);
-        ShowHideVirt:SetPosition(3, ShowHidePanel:GetTop()+ShowHidePanel:GetHeight()+4);
         ShowHideVirt:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
         ShowHideVirt:SetBackground(vResPath.."ShowVirtBtn.tga");
         ShowHideVirt:SetVisible(settings.ShowVirt_inQP);
@@ -232,11 +261,6 @@ function CreateControlPanel()
         end;
         ShowHideVirt.MouseClick = function(sender, args)
           VirtueWin:SetVisible(not VirtueWin:IsVisible());
---          if VirtueWin:IsVisible() then
---            VirtueWin:SetZOrder(2)
---          else
---            VirtueWin:SetZOrder(0)
---          end;
         end;
         ShowHideVirt.MouseUp = function(sender, args)
           ShowHideVirt:SetBackground(vResPath.."ShowVirtBtn_h.tga");
@@ -249,13 +273,8 @@ function CreateControlPanel()
         ShowHideMap = Turbine.UI.Label();
         ShowHideMap:SetParent(ControlPanel);
         ShowHideMap:SetSize(36, 0);
---        if settings.ShowMap_inQP then
---          ShowHideMap:SetSize(36, 27);
---        else
---          ShowHideMap:SetSize(36, 0);
---        end;  
         ShowHideMap:SetOpacity(1);
-        ShowHideMap:SetPosition(3, ShowHideVirt:GetTop()+ShowHideVirt:GetHeight()+4);
+        ShowHideMap:SetPosition(3, ShowHideVirt:GetTop()+ShowHideVirt:GetHeight());
         ShowHideMap:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
         --ShowHideMap:SetBackground(vResPath.."MapBtn.tga");
         ShowHideMap:SetVisible(settings.ShowMap_inQP);
@@ -263,71 +282,32 @@ function CreateControlPanel()
           MapWin:SetVisible(not MapWin:IsVisible());
         end;
         
-        ShowSkopButton = Turbine.UI.Label();
-        ShowSkopButton:SetParent(ControlPanel);
-        if settings.ShowSkop_inQP then
-          ShowSkopButton:SetSize(36, 27);
-        else
-          ShowSkopButton:SetSize(36, 0);
-        end;
-        ShowSkopButton:SetPosition(3, ShowHideMap:GetTop()+ShowHideMap:GetHeight()+4);
-        ShowSkopButton:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
-        ShowSkopButton:SetBackground(vResPath.."SkopBtn.tga");
-        ShowSkopButton:SetVisible(settings.ShowSkop_inQP);
-        ShowSkopButton.MouseEnter = function(sender, args)
-          ShowSkopButton:SetBackground(vResPath.."SkopBtn_h.tga");
-        end;
-        ShowSkopButton.MouseDown = function(sender, args)
-          ShowSkopButton:SetBackground(vResPath.."SkopBtn_d.tga");
-        end;
-        ShowSkopButton.MouseMove = function(sender, args)
-          ShowHint(_G.Captions.Skop);
-        end;
-        ShowSkopButton.MouseClick = function(sender, args)
-          SkopWindow:SetVisible(not SkopWindow:IsVisible());
---          if SkopWindow:IsVisible() then
---            SkopWindow:SetZOrder(2)
---          else
---            SkopWindow:SetZOrder(0)
---          end;
-        end;
-        ShowSkopButton.MouseUp = function(sender, args)
-          ShowSkopButton:SetBackground(vResPath.."SkopBtn_h.tga");
-        end;
-        ShowSkopButton.MouseLeave = function(sender, args)
-          HideHint();
-          ShowSkopButton:SetBackground(vResPath.."SkopBtn.tga");
-        end;
-        
         ShowHelpButton = Turbine.UI.Label();
         ShowHelpButton:SetParent(ControlPanel);
         if settings.ShowHelp_inQP then
           ShowHelpButton:SetSize(36, 27);
+          ShowHelpButton:SetPosition(3, ShowHideMap:GetTop()+ShowHideMap:GetHeight()+4);
         else
           ShowHelpButton:SetSize(36, 0);
+          ShowHelpButton:SetPosition(3, ShowHideMap:GetTop()+ShowHideMap:GetHeight());
         end;
-        ShowHelpButton:SetPosition(3, ShowSkopButton:GetTop()+ShowSkopButton:GetHeight()+4);
         ShowHelpButton:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
         ShowHelpButton:SetBackground(vResPath.."HelpBtn.tga");
         ShowHelpButton:SetVisible(settings.ShowHelp_inQP);
         ShowHelpButton.MouseClick = function(sender, args)
           HelpWindow:SetVisible(not HelpWindow:IsVisible());
---          if HelpWindow:IsVisible() then
---            HelpWindow:SetZOrder(2)
---          else
---            HelpWindow:SetZOrder(0)
---          end;
         end;
         
         ShowHideGard = Turbine.UI.Label();
         ShowHideGard:SetParent(ControlPanel);
         if settings.ShowGard_inQP then
           ShowHideGard:SetSize(36, 27);
+          ShowHideGard:SetPosition(3, ShowHelpButton:GetTop()+ShowHelpButton:GetHeight()+4);
         else
           ShowHideGard:SetSize(36, 0);
+          ShowHideGard:SetPosition(3, ShowHelpButton:GetTop()+ShowHelpButton:GetHeight());
         end;  
         ShowHideGard:SetOpacity(1);
-        ShowHideGard:SetPosition(3, ShowHelpButton:GetTop()+ShowHelpButton:GetHeight()+4);
         ShowHideGard:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
         ShowHideGard:SetBackground(vResPath.."ShowGardBtn.tga");
         ShowHideGard:SetVisible(settings.ShowGard_inQP);
@@ -342,11 +322,6 @@ function CreateControlPanel()
         end;
         ShowHideGard.MouseClick = function(sender, args)
           GardWin:SetVisible(not GardWin:IsVisible());
---          if GardueWin:IsVisible() then
---            GardueWin:SetZOrder(2)
---          else
---            GardueWin:SetZOrder(0)
---          end;
         end;
         ShowHideGard.MouseUp = function(sender, args)
           ShowHideGard:SetBackground(vResPath.."ShowGardBtn_h.tga");
@@ -355,7 +330,40 @@ function CreateControlPanel()
           HideHint();
           ShowHideGard:SetBackground(vResPath.."ShowGardBtn.tga");
         end;
-  ControlPanel:SetSize(42, ShowHideGard:GetTop()+ShowHideGard:GetHeight()+4);      
+        
+        ShowHideOther = Turbine.UI.Label();
+        ShowHideOther:SetParent(ControlPanel);
+        if settings.ShowOther_inQP then
+          ShowHideOther:SetSize(36, 27);
+          ShowHideOther:SetPosition(3, ShowHideGard:GetTop()+ShowHideGard:GetHeight()+4);
+        else
+          ShowHideOther:SetSize(36, 0);
+          ShowHideOther:SetPosition(3, ShowHideGard:GetTop()+ShowHideGard:GetHeight());
+        end;  
+        ShowHideOther:SetOpacity(1);
+        ShowHideOther:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
+        ShowHideOther:SetBackground(vResPath.."ShowOtherBtn.tga");
+        ShowHideOther:SetVisible(settings.ShowOther_inQP);
+        ShowHideOther.MouseEnter = function(sender, args)
+          ShowHideOther:SetBackground(vResPath.."ShowOtherBtn_h.tga");
+        end;
+        ShowHideOther.MouseDown = function(sender, args)
+          ShowHideOther:SetBackground(vResPath.."ShowOtherBtn_d.tga");
+        end;
+        ShowHideOther.MouseMove = function(sender, args)
+          ShowHint(_G.Captions.OtherWin);
+        end;
+        ShowHideOther.MouseClick = function(sender, args)
+          OtherWin:SetVisible(not OtherWin:IsVisible());
+        end;
+        ShowHideOther.MouseUp = function(sender, args)
+          ShowHideOther:SetBackground(vResPath.."ShowOtherBtn_h.tga");
+        end;
+        ShowHideOther.MouseLeave = function(sender, args)
+          HideHint();
+          ShowHideOther:SetBackground(vResPath.."ShowOtherBtn.tga");
+        end;
+  ControlPanel:SetSize(42, ShowHideOther:GetTop()+ShowHideOther:GetHeight()+4);      
 end;
 
 CreateControlPanel();

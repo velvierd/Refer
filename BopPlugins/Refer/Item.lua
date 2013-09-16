@@ -68,7 +68,7 @@ function CreateItem()
   
   vItem.Caption = Turbine.UI.Label();
   vItem.Caption:SetParent(vItem);
-  vItem.Caption:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  vItem.Caption:SetFont(Turbine.UI.Lotro.Font.Verdana12);
   vItem.Caption:SetBlendMode(Turbine.UI.BlendMode.None);
   vItem.Caption:SetFontStyle(Turbine.UI.FontStyle.Outline);
   vItem.Caption:SetSize(168, 32);
@@ -93,10 +93,34 @@ function CreateItem()
       vItem.AliasIcon:SetBackground(vResPath.."Alias_on.tga");
       vItem.AliasIcon.MouseClick = function(sender, args)
         local x, y = Turbine.UI.Display.GetMousePosition();
-        CreateAliasMenu(vItem.Data.ID, vItem.Data.ItemName, x, y);
+        if vItem.Data.Armour~=nil and vItem.Data.Armour~="" then
+           CreateAliasMenu(vItem.Data.ID, vItem.Data.ItemName, x, y, vItem.Data.Conditions.min_Level, vItem.Data.Conditions.item_Level, 3, vItem.Data.Armour, nil)
+        elseif vItem.Data.Damage~=nil and vItem.Data.Damage~="" then
+          --local sMinDmg, sMaxDmg = string.match(vItem.Data.Damage, "(%d+)-(%d+)");
+          --local vMinDmg, vMaxDmg = tonumber(sMinDmg), tonumber(sMaxDmg);
+          local sMaxDmg = string.gsub(vItem.Data.DPS, "%.", _G.DecimalSeparator);
+          local vMaxDmg = tonumber(sMaxDmg)*5/4*_G.AttackSpeed;
+          CreateAliasMenu(vItem.Data.ID, vItem.Data.ItemName, x, y, vItem.Data.Conditions.min_Level, vItem.Data.Conditions.item_Level, 3, nil, vMaxDmg)
+        else
+          CreateAliasMenu(vItem.Data.ID, vItem.Data.ItemName, x, y, vItem.Data.Conditions.min_Level, vItem.Data.Conditions.item_Level, 2, nil, nil)
+        end;       
       end;
-      vItem.Caption:SetText(string.format(_G.ItemIDCaption,vItem.Data.ID,vItem.Data.ItemName));
-      vItem.Caption:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+      if vItem.Data.Conditions.item_Level == nil then 
+        vItem.Caption:SetText(string.format(_G.ItemIDCaption,vItem.Data.ID,vItem.Data.ItemName));
+      else
+        if vItem.Data.Armour~=nil and vItem.Data.Armour~="" then
+          vItem.Caption:SetText(string.format(_G.ItemIDCaption_scal,Codec_Encode(vItem.Data.ID, vItem.Data.Conditions.min_Level, vItem.Data.Conditions.item_Level, 3, vItem.Data.Armour, nil),vItem.Data.ItemName));
+        elseif vItem.Data.Damage~=nil and vItem.Data.Damage~="" then
+          --local sMinDmg, sMaxDmg = string.match(vItem.Data.Damage, "(%d+)-(%d+)");
+          --local vMinDmg, vMaxDmg = tonumber(sMinDmg), tonumber(sMaxDmg);
+          local sMaxDmg = string.gsub(vItem.Data.DPS, "%.", _G.DecimalSeparator);
+          local vMaxDmg = tonumber(sMaxDmg)*5/4*_G.AttackSpeed;
+          vItem.Caption:SetText(string.format(_G.ItemIDCaption_scal,Codec_Encode(vItem.Data.ID, vItem.Data.Conditions.min_Level, vItem.Data.Conditions.item_Level, 3, nil, vMaxDmg),vItem.Data.ItemName));   
+        else
+          vItem.Caption:SetText(string.format(_G.ItemIDCaption_scal,Codec_Encode(vItem.Data.ID, vItem.Data.Conditions.min_Level, vItem.Data.Conditions.item_Level, 2, nil, nil),vItem.Data.ItemName));
+        end;   
+      end;  
+      vItem.Caption:SetFont(Turbine.UI.Lotro.Font.Verdana12);
       --vItem.Slot:SetShortcut(Turbine.UI.Lotro.Shortcut(Turbine.UI.Lotro.ShortcutType.Alias, string.format(_G.ItemIDLink, vItem.Data.ID, Convert(vItem.Data.ItemName))));
     else
       vItem.AliasIcon:SetBackground(vResPath.."Alias_off.tga");

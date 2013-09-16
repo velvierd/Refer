@@ -4,7 +4,7 @@ function BuildDescPanel(vParent, vInst)
   DescPanel:SetParent(vParent);
   DescPanel:SetSize(w-20, h-10);
   DescPanel:SetPosition(5, 5);
-  DescPanel:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  DescPanel:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   DescPanel:SetForeColor(_G.clShadowWhite);
   DescPanel:SetReadOnly(true);
   if vInst.Descr ~= nil then

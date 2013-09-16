@@ -1,4 +1,4 @@
-function CreateAliasMenu(vID, vItemName, x ,y)
+function CreateAliasMenu(vID, vItemName, x ,y, vMin_Lvl, vItem_Lvl, vExtra_count, vArmour, vMaxDmg)
   local Menu = Turbine.UI.ListBox();
   Menu:SetParent(MenuWin);
   Menu:SetBackColor(Turbine.UI.Color( 0.2, 0.2, 0.2 ) );
@@ -7,6 +7,7 @@ function CreateAliasMenu(vID, vItemName, x ,y)
     local elem = _G.AliasesForMenu[i]; 
     local Item = Turbine.UI.Label();
     Item:SetSize(100,16);
+    Item:SetFont(Turbine.UI.Lotro.Font.Verdana12);
     Item:SetText(elem.Caption);
     local qs = Turbine.UI.Lotro.Quickslot();
     qs:SetParent(Item);
@@ -15,7 +16,13 @@ function CreateAliasMenu(vID, vItemName, x ,y)
       if vID == -1 then
         qs:SetShortcut(Turbine.UI.Lotro.Shortcut(Turbine.UI.Lotro.ShortcutType.Alias, elem.Prefix..vItemName));
       elseif vID ~= nil and vID ~= "" then
-        qs:SetShortcut(Turbine.UI.Lotro.Shortcut(Turbine.UI.Lotro.ShortcutType.Alias, elem.Prefix..string.format(_G.ItemIDLink, vID, Convert(vItemName))));
+        if vItem_Lvl == nil then 
+          qs:SetShortcut(Turbine.UI.Lotro.Shortcut(Turbine.UI.Lotro.ShortcutType.Alias, elem.Prefix..string.format(_G.ItemIDLink, vID, Convert(vItemName))));
+        else
+          local sh = Turbine.UI.Lotro.Shortcut(Turbine.UI.Lotro.ShortcutType.Alias, "");
+          sh:SetData(elem.Prefix..string.format(_G.ItemIDLink_scale, Codec_Encode(vID, vMin_Lvl, vItem_Lvl, vExtra_count, vArmour, vMaxDmg), vItemName))
+          qs:SetShortcut(sh);
+        end;  
       else
         qs:SetShortcut(Turbine.UI.Lotro.Shortcut(Turbine.UI.Lotro.ShortcutType.Alias, elem.Prefix..Convert(vItemName)));
       end;  

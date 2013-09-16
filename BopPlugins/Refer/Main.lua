@@ -16,8 +16,22 @@ function n2s(format, arg)
   return string.format(format, arg)
 end;
 
-function Cmd:Execute(command, arguments)
-  ToolTipWin:SetVisible(not ToolTipWin:IsVisible());
+function Cmd:Execute(command, args)
+  if args == "" then
+    ToolTipWin:SetVisible(not ToolTipWin:IsVisible());
+  elseif args == "virt" then
+    VirtueWin:SetVisible(not VirtueWin:IsVisible());
+  elseif args == "help" then
+    HelpWindow:SetVisible(not HelpWindow:IsVisible());
+  elseif args == "gard" then
+    GardWin:SetVisible(not GardWin:IsVisible());
+  elseif args == "other" then
+    OtherWin:SetVisible(not OtherWin:IsVisible());
+  elseif args == "opt" then
+    ShowOptions();
+  else
+    write(_G.Captions.CommDescr);
+  end;            
 end
 
 Turbine.Shell.AddCommand( "lut", Cmd);
@@ -29,8 +43,8 @@ function LoadSettings()
   if (type(settings) ~= "table") then
     settings = {};
   end
-  if settings.ShowMain_withStart == nil then		
-    settings.ShowMain_withStart = true		
+  if settings.ShowMain_inQP == nil then		
+    settings.ShowMain_inQP = true		
   end;
   if settings.ShowVirt_inQP == nil then		
     settings.ShowVirt_inQP = true		
@@ -38,15 +52,15 @@ function LoadSettings()
 --  if settings.ShowMap_inQP == nil then		
 --    settings.ShowMap_inQP = true		
 --  end;
-  if settings.ShowSkop_inQP == nil then		
-    settings.ShowSkop_inQP = true		
-  end;
   if settings.ShowHelp_inQP == nil then		
     settings.ShowHelp_inQP = true		
   end;
   if settings.ShowGard_inQP == nil then		
     settings.ShowGard_inQP = true		
   end;
+  if settings.ShowOther_inQP == nil then		
+    settings.ShowOther_inQP = true		
+  end;  
   if settings.ToolTipWin_X == nil then		
     settings.ToolTipWin_X = string.format("%.0f", 200)		
   end;
@@ -64,6 +78,12 @@ function LoadSettings()
   end;
   if settings.GardWin_Y == nil then		
     settings.GardWin_Y = string.format("%.0f", 200)		
+  end;
+  if settings.OtherWin_X == nil then		
+    settings.OtherWin_X = string.format("%.0f", 200)		
+  end;
+  if settings.OtherWin_Y == nil then		
+    settings.OtherWin_Y = string.format("%.0f", 200)		
   end;
 --  if settings.MapWin_X == nil then		
 --    settings.MapWin_X = string.format("%.0f", 200)		
@@ -87,11 +107,47 @@ end;
 
 LoadSettings();
 
+function Save_VirtsSaves()
+  Turbine.PluginData.Save(Turbine.DataScope.Character, "ReferSaveVirt", setVirts);
+end;
+
+function UpdateVirtSettings()  
+  local Ver_F = tonumber(setVirts.Ver_R)*100+tonumber(setVirts.Ver_H)+tonumber(setVirts.Ver_R)/100;
+  if Ver_F < 401.0 then
+   -- старый сейв Чёрной утробы (Милосердие)
+    setVirts[n2s("%.0f", 6*1000000+2*10000+4*100+2)] = setVirts[n2s("%.0f", 6*1000000+2*10000+2*100+1)];
+    setVirts[n2s("%.0f", 6*1000000+2*10000+2*100+1)] = setVirts[n2s("%.0f", 6*1000000+2*10000+2*100+2)];
+    setVirts[n2s("%.0f", 6*1000000+2*10000+2*100+2)] = nil;
+   -- правка скрытого деяния Бич предателей (Справедливость)
+    setVirts[n2s("%.0f", 14*1000000+1*10000+1*100+11)] = setVirts[n2s("%.0f", 14*1000000+1*10000+1*100+10)];
+    setVirts[n2s("%.0f", 14*1000000+1*10000+1*100+10)] = false;
+    setVirts.Ver_R = 4;
+    setVirts.Ver_H = 1;
+    setVirts.Ver_L = 0;
+    Save_VirtsSaves();
+  end;  
+end;
+
 function LoadVirtSettings()
   setVirts = Turbine.PluginData.Load(Turbine.DataScope.Character, "ReferSaveVirt");
+  if setVirts ~= nil then
+    if setVirts.Version == nil then
+      setVirts.Version = "4.0.0";
+      setVirts.Ver_R = "4";
+      setVirts.Ver_H = "0";
+      setVirts.Ver_L = "0";
+    end;  
+    if setVirts.Version ~= _G.Version then 
+      UpdateVirtSettings()
+    end;  
+  end;
   local setVirtsNum = 0;
   if setVirts == nil then
    setVirts = {};
+   setVirts.Version = _G.Version;
+   setVirts.Ver_R = string.format("%.0f", _G.Version_R);
+   setVirts.Ver_H = string.format("%.0f", _G.Version_H);
+   setVirts.Ver_L = string.format("%.0f", _G.Version_L);
    local Virt_len = #_G.Virtues;
    for i = 1, Virt_len do
      local Types_len = #_G.Virtues[i].Types;
@@ -108,9 +164,11 @@ function LoadVirtSettings()
   end;
 end;
 
+import (vPlugPath.."Codec")
 import (vPlugPath.."Functions");
 import (vPlugPath.."UTF");
 import (vLocalePath.."Constants");
+import (vPlugPath.."ComboBox");
 import (vPlugPath.."ProgressBar");              
 import (vPlugPath.."Container");
 import (vPlugPath.."AliasMenu");
@@ -122,6 +180,7 @@ import (vPlugPath.."FilterPanel");
 import (vPlugPath.."Descripts");
 import (vPlugPath.."Virtues");
 import (vPlugPath.."Garderobe");
+import (vPlugPath.."Other");
 --import (vPlugPath.."Maps");
 
 --LoadVirtSettings();
@@ -151,7 +210,7 @@ ToolTipWin.PositionChanged = function(sender, args)
   settings.ToolTipWin_X = string.format("%.0f", ToolTipWin:GetLeft());
   settings.ToolTipWin_Y = string.format("%.0f", ToolTipWin:GetTop());        
   SaveSettings();
-end;                 
+end;
 
 LeftRegion = Turbine.UI.Window();
 LeftRegion:SetParent(ToolTipWin);
@@ -187,24 +246,12 @@ end;
 
 ResetInfoPanel();
 
-SkopWindow = Turbine.UI.Lotro.Window();
-SkopWindow:SetSize(200,255);
-SkopWindow:SetOpacity(1);
-SkopWindow:SetPosition(200, 200);
-SkopWindow:SetText(_G.Captions.Skop);
-SkopWindow:SetVisible(false);
-SkopWindow:SetWantsKeyEvents(true);
-SkopWindow.KeyDown = function(sender, args)
-  if args.Action == Turbine.UI.Lotro.Action.Escape then
-    SkopWindow:SetVisible(false)
-  end;
-end;
-
 import (vPlugPath.."Search");
 ShowSearchButton = Turbine.UI.Lotro.Button();
 ShowSearchButton:SetParent(ToolTipWin);
 ShowSearchButton:SetSize(60, 15);
 ShowSearchButton:SetPosition(556, 20);
+ShowSearchButton:SetFont(Turbine.UI.Lotro.Font.Verdana14);
 ShowSearchButton:SetText(_G.Captions.SearchWindow);
 ShowSearchButton:SetVisible(true);
 ShowSearchButton.MouseClick = function(sender, args)
@@ -229,7 +276,7 @@ HelpBox:SetParent(HelpWindow);
 HelpBox:SetSize(360,542);
 HelpBox:SetOpacity(1);
 HelpBox:SetPosition(20, 33);
-HelpBox:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+HelpBox:SetFont(Turbine.UI.Lotro.Font.Verdana14);
 HelpBox:SetForeColor(_G.clShadowWhite);
 HelpBox:SetReadOnly(true);
 HelpBox:SetText(_G.Help);
@@ -250,7 +297,7 @@ ShowDesc:SetPosition(85, 23);
 ShowDesc:SetForeColor(_G.clShadowWhite);
 ShowDesc:SetCheckAlignment(Turbine.UI.CheckBox.MiddleLeft);
 ShowDesc:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
-ShowDesc:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+ShowDesc:SetFont(Turbine.UI.Lotro.Font.Verdana12);
 ShowDesc:SetFontStyle(Turbine.UI.FontStyle.Outline);
 ShowDesc:SetText(_G.Captions.ShowDesc);
 ShowDesc:SetVisible(true);
@@ -264,26 +311,6 @@ ShowDesc.CheckedChanged = function(sender, args)
     end;
   end;  
 end;
-
-ShowOptButton = Turbine.UI.Lotro.Button();
-ShowOptButton:SetParent(ToolTipWin);
-ShowOptButton:SetSize(80, 15);
-ShowOptButton:SetPosition(617, 20);
-ShowOptButton:SetText(_G.Captions.optWindow);
-ShowOptButton:SetVisible(true);
-ShowOptButton.MouseClick = function(sender, args)
-  ShowOptions();
-end;
-
---UnloadButton = Turbine.UI.Lotro.Button();
---UnloadButton:SetParent(ToolTipWin);
---UnloadButton:SetSize(80, 15);
---UnloadButton:SetPosition(700, 20);
---UnloadButton:SetText(_G.Captions.UnloadButton);
---UnloadButton:SetVisible(true);
---UnloadButton.MouseClick = function(sender, args)
---  Turbine.PluginManager.UnloadScriptState("Справочная");
---end;
 
 BuildTree(LeftRegion, RightRegion);
 
@@ -337,123 +364,10 @@ TreeExpandBtn.MouseLeave = function(sender, args)
   TreeExpandBtn:SetBackground(vResPath.."ExpandAll_n.tga");
 end;
 
-lbTB = Turbine.UI.Label();
-lbTB:SetSize(50,20);
-lbTB:SetPosition(10, 65);
-lbTB:SetText("Backgr.");
-bTB = Turbine.UI.Lotro.TextBox();
-bTB:SetSize(110,20);
-bTB:SetPosition(70, 65);
-bTB:SetFont(Turbine.UI.Lotro.Font.Verdana12);
-lbTB:SetParent(SkopWindow);
-bTB:SetParent(SkopWindow);
-lbTB:SetVisible(true);
-bTB:SetVisible(true);
-
-liTB = Turbine.UI.Label();
-liTB:SetSize(50,20);
-liTB:SetPosition(10, 90);
-liTB:SetText("Icon");
-iTB = Turbine.UI.Lotro.TextBox();
-iTB:SetSize(110,20);
-iTB:SetPosition(70, 90);
-iTB:SetFont(Turbine.UI.Lotro.Font.Verdana12);
-liTB:SetParent(SkopWindow);
-iTB:SetParent(SkopWindow);
-liTB:SetVisible(true);
-iTB:SetVisible(true);
-
-lqTB = Turbine.UI.Label();
-lqTB:SetSize(50,20);
-lqTB:SetPosition(10, 115);
-lqTB:SetText("Quality");
-qTB = Turbine.UI.Lotro.TextBox();
-qTB:SetSize(110,20);
-qTB:SetPosition(70, 115);
-qTB:SetFont(Turbine.UI.Lotro.Font.Verdana12);
-lqTB:SetParent(SkopWindow);
-qTB:SetParent(SkopWindow);
-lqTB:SetVisible(true);
-qTB:SetVisible(true);
-
-lsTB = Turbine.UI.Label();
-lsTB:SetSize(50,20);
-lsTB:SetPosition(10, 140);
-lsTB:SetText("Shadow");
-sTB = Turbine.UI.Lotro.TextBox();
-sTB:SetSize(110,20);
-sTB:SetPosition(70, 140);
-sTB:SetFont(Turbine.UI.Lotro.Font.Verdana12);
-lsTB:SetParent(SkopWindow);
-sTB:SetParent(SkopWindow);
-lsTB:SetVisible(true);
-sTB:SetVisible(true);
-
-luTB = Turbine.UI.Label();
-luTB:SetSize(50,20);
-luTB:SetPosition(10, 165);
-luTB:SetText("Underlay");
-uTB = Turbine.UI.Lotro.TextBox();
-uTB:SetSize(110,20);
-uTB:SetPosition(70, 165);
-uTB:SetFont(Turbine.UI.Lotro.Font.Verdana12);
-luTB:SetParent(SkopWindow);
-uTB:SetParent(SkopWindow);
-luTB:SetVisible(true);
-uTB:SetVisible(true);
-
-lidTB = Turbine.UI.Label();
-lidTB:SetSize(50,20);
-lidTB:SetPosition(10, 190);
-lidTB:SetText("ID:");
-idTB = Turbine.UI.Lotro.TextBox();
-idTB:SetSize(110,20);
-idTB:SetPosition(70, 190);
-idTB:SetFont(Turbine.UI.Lotro.Font.Verdana12);
-lidTB:SetParent(SkopWindow);
-idTB:SetParent(SkopWindow);
-lidTB:SetVisible(true);
-idTB:SetVisible(true);
-
-totalTB = Turbine.UI.Lotro.TextBox();
-totalTB:SetSize(160,20);
-totalTB:SetPosition(20, 215);
-totalTB:SetMultiline(false);
-totalTB:SetFont(Turbine.UI.Lotro.Font.Verdana12); 
-totalTB:SetParent(SkopWindow);
-totalTB:SetVisible(true);
-
-qs = Turbine.UI.Lotro.Quickslot();
-
-qs:SetParent(SkopWindow);
-qs:SetSize(36,36);
-qs:SetPosition(25,30);
-qs:SetBackground(vResPath.."qs.tga");
-qs.ShortcutChanged = function (sender, args)
-  if sender:GetShortcut():GetItem() ~= nil then
-    bTB:SetText(sender:GetShortcut():GetItem():GetBackgroundImageID());
-    iTB:SetText(sender:GetShortcut():GetItem():GetIconImageID());
-    qTB:SetText(sender:GetShortcut():GetItem():GetQualityImageID());
-    sTB:SetText(sender:GetShortcut():GetItem():GetShadowImageID());
-    uTB:SetText(sender:GetShortcut():GetItem():GetUnderlayImageID());
-    idTB:SetText(sender:GetShortcut():GetData());
-    totalTB:SetText("B: "..bTB:GetText().."; I: "..iTB:GetText().."; Q: "..qTB:GetText().."; S: "..sTB:GetText().."; U: "..uTB:GetText());
-    totalTB:SelectAll();
-    totalTB:Focus();
-  else
-    bTB:SetText("");
-    iTB:SetText("");
-    qTB:SetText("");
-    sTB:SetText("");
-    uTB:SetText("");
-    idTB:SetText("");
-    totalTB:SetText("");
-  end;     
-end;
-
 MenuWin = Turbine.UI.Window();
 MenuWin:SetZOrder(10);
 MenuWin:SetBackColor(Turbine.UI.Color(0,0,0));
 MenuWin:SetVisible(false);
 
 write(_G.Captions.Start);
+write(_G.Captions.CommDescr);

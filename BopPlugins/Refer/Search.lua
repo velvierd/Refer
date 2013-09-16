@@ -12,7 +12,7 @@ end;
 
 function CreateSearchItem(vCaption)
   local vItem = Turbine.UI.Label();
-  vItem:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  vItem:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   vItem:SetForeColor(_G.clShadowWhite);
   vItem:SetBackground(vResPath.."SearchItem.tga");
   vItem:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
@@ -52,7 +52,7 @@ end;
 
 lSearch = Turbine.UI.Label();
 lSearch:SetParent(SearchWindow);
-lSearch:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+lSearch:SetFont(Turbine.UI.Lotro.Font.Verdana12);
 lSearch:SetForeColor(_G.clShadowWhite);
 lSearch:SetBlendMode(Turbine.UI.BlendMode.None);
 lSearch:SetSize(115, 15);
@@ -62,7 +62,7 @@ lSearch:SetMouseVisible(true);
 
 tbSearch = Turbine.UI.Lotro.TextBox();
 tbSearch:SetParent(SearchWindow);
-tbSearch:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+tbSearch:SetFont(Turbine.UI.Lotro.Font.Verdana12);
 tbSearch:SetForeColor(_G.clWhite);
 tbSearch:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
 tbSearch:SetBlendMode(Turbine.UI.BlendMode.None);

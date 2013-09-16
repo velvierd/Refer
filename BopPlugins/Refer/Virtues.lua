@@ -30,10 +30,6 @@ import (vPlugPath.."VirtuesTree");
 import (vPlugPath.."VirtuesInfos");
 BuildVirtTree(lrwVirtue);
 
-function Save_VirtsSaves()
-  Turbine.PluginData.Save(Turbine.DataScope.Character, "ReferSaveVirt", setVirts);
-end;
-
 function ResetVirtPanel()
   if rrwVirtue ~= nil then
     rrwVirtue:SetVisible(false);

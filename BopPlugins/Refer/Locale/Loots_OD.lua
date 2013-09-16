@@ -1,3 +1,3 @@
-_G.Loots[6]["Instances"][5] = {};
-_G.Loots[6]["Instances"][5]["InstanceName"] = "Ост Дунхот";
-_G.Loots[6]["Instances"][5]["Bosses"] = {};
+_G.Loots[5]["Instances"][7] = {};
+_G.Loots[5]["Instances"][7]["InstanceName"] = "Ост Дунхот";
+_G.Loots[5]["Instances"][7]["Bosses"] = {};

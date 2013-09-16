@@ -8,7 +8,7 @@ function BuildGardInfoWin(vRightWin, vGard)
   
   local lGardCpt = Turbine.UI.Label();
   lGardCpt:SetParent(vRightWin);
-  lGardCpt:SetFont(Turbine.UI.Lotro.Font.TrajanPro18);
+  lGardCpt:SetFont(Turbine.UI.Lotro.Font.Verdana18);
   lGardCpt:SetTextAlignment(Turbine.UI.ContentAlignment.TopCenter);
   lGardCpt:SetForeColor(_G.clWhite);
   lGardCpt:SetSize(457, 20);
@@ -17,7 +17,7 @@ function BuildGardInfoWin(vRightWin, vGard)
    
   local lGardAutor = Turbine.UI.Label();
   lGardAutor:SetParent(vRightWin);
-  lGardAutor:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  lGardAutor:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   lGardAutor:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
   lGardAutor:SetForeColor(_G.clShadowWhite);
   lGardAutor:SetSize(124, 18);
@@ -26,7 +26,7 @@ function BuildGardInfoWin(vRightWin, vGard)
   
   local tbGardDescr = Turbine.UI.Lotro.TextBox();
   tbGardDescr:SetParent(vRightWin);
-  tbGardDescr:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  tbGardDescr:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   tbGardDescr:SetForeColor(_G.clShadowWhite);
   tbGardDescr:SetSize(455, 128);
   tbGardDescr:SetPosition(4, 400);
@@ -42,7 +42,7 @@ function BuildGardInfoWin(vRightWin, vGard)
   
   local lHead = Turbine.UI.Label();
   lHead:SetParent(vRightWin);
-  lHead:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  lHead:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   lHead:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
   lHead:SetForeColor(_G.clShadowWhite);
   lHead:SetSize(126, 30);
@@ -52,7 +52,7 @@ function BuildGardInfoWin(vRightWin, vGard)
   
   local lChest = Turbine.UI.Label();
   lChest:SetParent(vRightWin);
-  lChest:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  lChest:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   lChest:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
   lChest:SetForeColor(_G.clShadowWhite);
   lChest:SetSize(126, 30);
@@ -62,7 +62,7 @@ function BuildGardInfoWin(vRightWin, vGard)
   
   local lLegs = Turbine.UI.Label();
   lLegs:SetParent(vRightWin);
-  lLegs:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  lLegs:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   lLegs:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
   lLegs:SetForeColor(_G.clShadowWhite);
   lLegs:SetSize(126, 30);
@@ -72,7 +72,7 @@ function BuildGardInfoWin(vRightWin, vGard)
   
   local lShoulders = Turbine.UI.Label();
   lShoulders:SetParent(vRightWin);
-  lShoulders:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  lShoulders:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   lShoulders:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
   lShoulders:SetForeColor(_G.clShadowWhite);
   lShoulders:SetSize(126, 30);
@@ -82,7 +82,7 @@ function BuildGardInfoWin(vRightWin, vGard)
   
   local lBack = Turbine.UI.Label();
   lBack:SetParent(vRightWin);
-  lBack:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  lBack:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   lBack:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
   lBack:SetForeColor(_G.clShadowWhite);
   lBack:SetSize(126, 30);
@@ -92,7 +92,7 @@ function BuildGardInfoWin(vRightWin, vGard)
   
   local lHands = Turbine.UI.Label();
   lHands:SetParent(vRightWin);
-  lHands:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  lHands:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   lHands:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
   lHands:SetForeColor(_G.clShadowWhite);
   lHands:SetSize(126, 30);
@@ -102,7 +102,7 @@ function BuildGardInfoWin(vRightWin, vGard)
   
   local lFoots = Turbine.UI.Label();
   lFoots:SetParent(vRightWin);
-  lFoots:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+  lFoots:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   lFoots:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
   lFoots:SetForeColor(_G.clShadowWhite);
   lFoots:SetSize(126, 30);

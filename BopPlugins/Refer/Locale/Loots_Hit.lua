@@ -1,6 +1,11 @@
-_G.Loots[11]["Instances"][2] = {};
-_G.Loots[11]["Instances"][2]["InstanceName"] = "Хитбольд (сеты)";
-_G.Loots[11]["Instances"][2]["Descr"] = [[Стоимость обмена предметов сета:
+_G.Loots[11] = {};
+_G.Loots[11]["LocName"] = "Восточный Рохан";
+_G.Loots[11]["Instances"] = {};
+_G.Loots[11]["Instances"][1] = {};
+
+_G.Loots[11]["Instances"][1] = {};
+_G.Loots[11]["Instances"][1]["InstanceName"] = "Хитбольд (сеты)";
+_G.Loots[11]["Instances"][1]["Descr"] = [[Стоимость обмена предметов сета:
 
   1. Голова - 35 эмблем Хитбольда.
   2. Наплечники - 15 эмблем Хитбольда.
@@ -11,18 +16,18 @@ _G.Loots[11]["Instances"][2]["Descr"] = [[Стоимость обмена пре
 
 Итого:
   Полный сет - 130 эмблем Хитбольда.]];
-_G.Loots[11]["Instances"][2]["Bosses"] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][1] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][1]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Burglar];
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][1] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][1]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Burglar];
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["CompName"] = "Хитбольдские доспехи мастера ножей";
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["CompName"] = "Хитбольдские доспехи мастера ножей";
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем мастера ножей",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -80,8 +85,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники мастера ножей",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -115,7 +120,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764705,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764698,
@@ -128,8 +133,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка мастера ножей",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -163,7 +168,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764722,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764713,
@@ -176,8 +181,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки мастера ножей",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -211,7 +216,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764704,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764708,
@@ -224,8 +229,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи мастера ножей",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -259,7 +264,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][1]["Sets"],
    ["IconID"] = 1091764700,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764692,
@@ -272,8 +277,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги мастера ножей",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -307,7 +312,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764720,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764709,
@@ -320,13 +325,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][1]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["CompName"] = "Хитбольдские доспехи игрока";
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["CompName"] = "Хитбольдские доспехи игрока";
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем игрока",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -384,8 +389,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники игрока",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -419,7 +424,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764705,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764698,
@@ -432,8 +437,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка игрока",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -467,7 +472,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764722,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764713,
@@ -480,8 +485,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки игрока",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -515,7 +520,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764704,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764708,
@@ -528,8 +533,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи игрока",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -563,7 +568,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][1]["Sets"],
    ["IconID"] = 1091764700,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764692,
@@ -576,8 +581,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги игрока",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -611,7 +616,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764720,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764709,
@@ -624,13 +629,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][2]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["CompName"] = "Хитбольдские доспехи хитреца";
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["CompName"] = "Хитбольдские доспехи хитреца";
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем хитреца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -688,8 +693,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники хитреца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -723,7 +728,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764705,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764698,
@@ -736,8 +741,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка хитреца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -771,7 +776,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764722,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764713,
@@ -784,8 +789,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки хитреца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -819,7 +824,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764704,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764708,
@@ -832,8 +837,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи хитреца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -867,7 +872,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][1]["Sets"],
    ["IconID"] = 1091764700,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764692,
@@ -880,8 +885,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги хитреца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -915,7 +920,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][1]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764720,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764709,
@@ -928,17 +933,17 @@ _G.Loots[11]["Instances"][2]["Bosses"][1]["Comps"][3]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][2] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][2]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Champion];
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][2] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][2]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Champion];
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["CompName"] = "Хитбольдские доспехи безудержного";
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["CompName"] = "Хитбольдские доспехи безудержного";
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем безудержного",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -996,8 +1001,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники безудержного",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1031,7 +1036,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764738,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764697,
@@ -1044,8 +1049,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка безудержного",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1079,7 +1084,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764729,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764717,
@@ -1092,8 +1097,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки безудержного",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1127,7 +1132,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764696,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764731,
@@ -1140,8 +1145,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи безудержного",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1175,7 +1180,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][1]["Sets"],
    ["IconID"] = 1091764701,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764694,
@@ -1188,8 +1193,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги безудержного",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1223,7 +1228,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764719,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764690,
@@ -1236,13 +1241,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][1]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["CompName"] = "Хитбольдские доспехи атакующего";
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["CompName"] = "Хитбольдские доспехи атакующего";
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем атакующего",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1300,8 +1305,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники атакующего",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1335,7 +1340,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764738,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764697,
@@ -1348,8 +1353,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка атакующего",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1383,7 +1388,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764729,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764717,
@@ -1396,8 +1401,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки атакующего",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1431,7 +1436,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764696,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764731,
@@ -1444,8 +1449,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи атакующего",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1479,7 +1484,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][1]["Sets"],
    ["IconID"] = 1091764701,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764694,
@@ -1492,8 +1497,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги атакующего",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1527,7 +1532,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764719,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764690,
@@ -1540,13 +1545,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][2]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["CompName"] = "Хитбольдские доспехи воителя";
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["CompName"] = "Хитбольдские доспехи воителя";
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем воителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1604,8 +1609,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники воителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1639,7 +1644,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][2] =
        ["TMitig"] = "+786"
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764738,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764697,
@@ -1652,8 +1657,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка воителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1687,7 +1692,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764729,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764717,
@@ -1700,8 +1705,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки воителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1735,7 +1740,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764696,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764731,
@@ -1748,8 +1753,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи воителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1783,7 +1788,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][1]["Sets"],
    ["IconID"] = 1091764701,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764694,
@@ -1796,8 +1801,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги воителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -1831,7 +1836,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][2]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764719,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764690,
@@ -1844,17 +1849,17 @@ _G.Loots[11]["Instances"][2]["Bosses"][2]["Comps"][3]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][3] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][3]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Warden];
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][3] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][3]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Warden];
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["CompName"] = "Хитбольдские доспехи копейщика";
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["CompName"] = "Хитбольдские доспехи копейщика";
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем копейщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -1912,8 +1917,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники копейщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -1947,7 +1952,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764705,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764698,
@@ -1960,8 +1965,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка копейщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -1995,7 +2000,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764722,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764713,
@@ -2008,8 +2013,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки копейщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2043,7 +2048,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764704,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764708,
@@ -2056,8 +2061,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи копейщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2091,7 +2096,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][1]["Sets"],
    ["IconID"] = 1091764700,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764692,
@@ -2104,8 +2109,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги копейщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2139,7 +2144,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764720,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764709,
@@ -2152,13 +2157,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][1]["Items"][6] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["CompName"] = "Хитбольдские доспехи защитника";
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["CompName"] = "Хитбольдские доспехи защитника";
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем защитника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2216,8 +2221,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники защитника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2251,7 +2256,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][2] =
        ["TMitig"] = "+786"
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764705,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764698,
@@ -2264,8 +2269,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка защитника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2299,7 +2304,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764722,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764713,
@@ -2312,8 +2317,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки защитника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2347,7 +2352,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764704,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764708,
@@ -2360,8 +2365,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи защитника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2395,7 +2400,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][1]["Sets"],
    ["IconID"] = 1091764700,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764692,
@@ -2408,8 +2413,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги защитника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2443,7 +2448,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764720,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764709,
@@ -2456,13 +2461,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][2]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["CompName"] = "Хитбольдские доспехи кулачного бойца";
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["CompName"] = "Хитбольдские доспехи кулачного бойца";
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем кулачного бойца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2520,8 +2525,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники кулачного бойца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2555,7 +2560,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764705,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764698,
@@ -2568,8 +2573,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка кулачного бойца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2603,7 +2608,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764722,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764713,
@@ -2616,8 +2621,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки кулачного бойца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2651,7 +2656,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764704,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764708,
@@ -2664,8 +2669,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи кулачного бойца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2699,7 +2704,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][1]["Sets"],
    ["IconID"] = 1091764700,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764692,
@@ -2712,8 +2717,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги кулачного бойца",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -2747,7 +2752,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][3]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764720,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764709,
@@ -2760,17 +2765,17 @@ _G.Loots[11]["Instances"][2]["Bosses"][3]["Comps"][3]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][4] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][4]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Minstrel];
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][4] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][4]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Minstrel];
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["CompName"] = "Хитбольдские доспехи скальда";
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["CompName"] = "Хитбольдские доспехи скальда";
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем скальда",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -2828,8 +2833,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники скальда",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -2863,7 +2868,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764725,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764724,
@@ -2876,8 +2881,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка скальда",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -2911,7 +2916,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764721,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764718,
@@ -2924,8 +2929,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки скальда",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -2959,7 +2964,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764726,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764691,
@@ -2972,8 +2977,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи скальда",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3007,7 +3012,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][1]["Sets"],
    ["IconID"] = 1091764716,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764699,
@@ -3020,8 +3025,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги скальда",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3055,7 +3060,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764703,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764695,
@@ -3068,13 +3073,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][1]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["CompName"] = "Хитбольдские доспехи решительного";
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["CompName"] = "Хитбольдские доспехи решительного";
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем решительного",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3132,8 +3137,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники решительного",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3167,7 +3172,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764725,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764724,
@@ -3180,8 +3185,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка решительного",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3215,7 +3220,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764721,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764718,
@@ -3228,8 +3233,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки решительного",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3263,7 +3268,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764726,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764691,
@@ -3276,8 +3281,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи решительного",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3311,7 +3316,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][1]["Sets"],
    ["IconID"] = 1091764716,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764699,
@@ -3324,8 +3329,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги решительного",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3359,7 +3364,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764703,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764695,
@@ -3372,13 +3377,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][2]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["CompName"] = "Хитбольдские доспехи хранителя песен";
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["CompName"] = "Хитбольдские доспехи хранителя песен";
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем хранителя песен",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3436,8 +3441,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники хранителя песен",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3471,7 +3476,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764725,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764724,
@@ -3484,8 +3489,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка хранителя песен",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3519,7 +3524,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764721,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764718,
@@ -3532,8 +3537,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки хранителя песен",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3567,7 +3572,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764726,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764691,
@@ -3580,8 +3585,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи хранителя песен",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3615,7 +3620,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][1]["Sets"],
    ["IconID"] = 1091764716,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764699,
@@ -3628,8 +3633,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги хранителя песен",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -3663,7 +3668,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][4]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764703,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764695,
@@ -3676,17 +3681,17 @@ _G.Loots[11]["Instances"][2]["Bosses"][4]["Comps"][3]["Items"][6] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][5]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Hunter];
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][5] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][5]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Hunter];
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"] = {};
   
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["CompName"] = "Хитбольдские доспехи лучника";
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["CompName"] = "Хитбольдские доспехи лучника";
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем лучника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -3744,8 +3749,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники лучника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -3779,7 +3784,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764705,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764698,
@@ -3792,8 +3797,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка лучника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -3827,7 +3832,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764722,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764713,
@@ -3840,8 +3845,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки лучника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -3875,7 +3880,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764704,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764708,
@@ -3888,8 +3893,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи лучника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -3923,7 +3928,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][1]["Sets"],
    ["IconID"] = 1091764700,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764692,
@@ -3936,8 +3941,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги лучника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -3971,7 +3976,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764720,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764709,
@@ -3984,13 +3989,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][1]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["CompName"] = "Хитбольдские доспехи охотника";
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["CompName"] = "Хитбольдские доспехи охотника";
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем охотника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4048,8 +4053,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники охотника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4083,7 +4088,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764705,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764698,
@@ -4096,8 +4101,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка охотника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4131,7 +4136,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764722,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764713,
@@ -4144,8 +4149,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки охотника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4179,7 +4184,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764704,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764708,
@@ -4192,8 +4197,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи охотника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4227,7 +4232,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][1]["Sets"],
    ["IconID"] = 1091764700,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764692,
@@ -4240,8 +4245,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги охотника",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4275,7 +4280,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764720,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764709,
@@ -4288,13 +4293,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][2]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["CompName"] = "Хитбольдские доспехи капканщика";
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["CompName"] = "Хитбольдские доспехи капканщика";
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем капканщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4352,8 +4357,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники капканщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4387,7 +4392,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764705,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764698,
@@ -4400,8 +4405,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка капканщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4435,7 +4440,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764722,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764713,
@@ -4448,8 +4453,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки капканщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4483,7 +4488,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764704,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764708,
@@ -4496,8 +4501,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи капканщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4531,7 +4536,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][1]["Sets"],
    ["IconID"] = 1091764700,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764692,
@@ -4544,8 +4549,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги капканщика",
    ["Type"] = _G.ItemTypes.Armor_leather,
    ["Unique"] = "",
@@ -4579,7 +4584,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][5]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764720,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764709,
@@ -4592,17 +4597,17 @@ _G.Loots[11]["Instances"][2]["Bosses"][5]["Comps"][3]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][6] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][6]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Captain];
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][6] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][6]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Captain];
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["CompName"] = "Хитбольдские доспехи предводителя";
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["CompName"] = "Хитбольдские доспехи предводителя";
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем предводителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -4660,8 +4665,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники предводителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -4695,7 +4700,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764738,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764697,
@@ -4708,8 +4713,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка предводителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -4743,7 +4748,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764729,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764717,
@@ -4756,8 +4761,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки предводителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -4791,7 +4796,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764696,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764731,
@@ -4804,8 +4809,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи предводителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -4839,7 +4844,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][1]["Sets"],
    ["IconID"] = 1091764701,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764694,
@@ -4852,8 +4857,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги предводителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -4887,7 +4892,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764719,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764690,
@@ -4900,13 +4905,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][1]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["CompName"] = "Хитбольдские доспехи целителя";
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["CompName"] = "Хитбольдские доспехи целителя";
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем целителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -4964,8 +4969,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники целителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -4999,7 +5004,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764738,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764697,
@@ -5012,8 +5017,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка целителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5047,7 +5052,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764729,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764717,
@@ -5060,8 +5065,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки целителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5095,7 +5100,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764696,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764731,
@@ -5108,8 +5113,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи целителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5143,7 +5148,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][1]["Sets"],
    ["IconID"] = 1091764701,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764694,
@@ -5156,8 +5161,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги целителя",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5191,7 +5196,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764719,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764690,
@@ -5204,13 +5209,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][2]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["CompName"] = "Хитбольдские доспехи полководца";
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["CompName"] = "Хитбольдские доспехи полководца";
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем полководца",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5268,8 +5273,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники полководца",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5303,7 +5308,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][2] =
        ["TMitig"] = "+786"
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764738,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764697,
@@ -5316,8 +5321,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка полководца",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5351,7 +5356,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764729,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764717,
@@ -5364,8 +5369,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки полководца",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5399,7 +5404,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764696,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764731,
@@ -5412,8 +5417,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи полководца",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5447,7 +5452,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][1]["Sets"],
    ["IconID"] = 1091764701,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764694,
@@ -5460,8 +5465,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги полководца",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5495,7 +5500,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][6]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764719,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764690,
@@ -5508,17 +5513,17 @@ _G.Loots[11]["Instances"][2]["Bosses"][6]["Comps"][3]["Items"][6] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][7]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Guardian];
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][7] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][7]["BossName"] = _G.Classes[Turbine.Gameplay.Class.Guardian];
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["CompName"] = "Хитбольдские доспехи клинка";
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["CompName"] = "Хитбольдские доспехи клинка";
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем клинка",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5576,8 +5581,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники клинка",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5611,7 +5616,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764738,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764697,
@@ -5624,8 +5629,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка клинка",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5659,7 +5664,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764729,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764717,
@@ -5672,8 +5677,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки клинка",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5707,7 +5712,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764696,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764731,
@@ -5720,8 +5725,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи клинка",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5755,7 +5760,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][1]["Sets"],
    ["IconID"] = 1091764701,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764694,
@@ -5768,8 +5773,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги клинка",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5803,7 +5808,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764719,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764690,
@@ -5816,13 +5821,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][1]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["CompName"] = "Хитбольдские доспехи защитника";
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["CompName"] = "Хитбольдские доспехи защитника";
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем защитника",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5880,8 +5885,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники защитника",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5915,7 +5920,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][2] =
        ["TMitig"] = "+786"
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764738,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764697,
@@ -5928,8 +5933,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка защитника",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -5963,7 +5968,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764729,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764717,
@@ -5976,8 +5981,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки защитника",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -6011,7 +6016,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764696,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764731,
@@ -6024,8 +6029,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи защитника",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -6059,7 +6064,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][1]["Sets"],
    ["IconID"] = 1091764701,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764694,
@@ -6072,8 +6077,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги защитника",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -6107,7 +6112,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764719,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764690,
@@ -6120,13 +6125,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][2]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["CompName"] = "Хитбольдские доспехи борца с тьмой";
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["CompName"] = "Хитбольдские доспехи борца с тьмой";
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем борца с тьмой",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -6143,8 +6148,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][1] =
        ["MoraleOutC"] = "",
        ["PowerOutC"] = "",
        ["Might"] = "+54", 
-       ["Agility"] = "+152", 
-       ["Vitality"] = "", 
+       ["Agility"] = "", 
+       ["Vitality"] = "+152", 
        ["Will"] = "",
        ["Fate"] = "", 
        ["B"] = "",
@@ -6184,8 +6189,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники борца с тьмой",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -6219,7 +6224,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][2] =
        ["TMitig"] = "+786"
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764738,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764697,
@@ -6232,8 +6237,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка борца с тьмой",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -6267,7 +6272,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764729,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764717,
@@ -6280,8 +6285,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки борца с тьмой",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -6315,7 +6320,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764696,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764731,
@@ -6328,8 +6333,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи борца с тьмой",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -6363,7 +6368,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][1]["Sets"],
    ["IconID"] = 1091764701,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764694,
@@ -6376,8 +6381,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги борца с тьмой",
    ["Type"] = _G.ItemTypes.Armor_heavy,
    ["Unique"] = "",
@@ -6411,7 +6416,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][7]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764719,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764690,
@@ -6424,17 +6429,17 @@ _G.Loots[11]["Instances"][2]["Bosses"][7]["Comps"][3]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][8] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][8]["BossName"] = _G.Classes[Turbine.Gameplay.Class.LoreMaster];
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][8] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][8]["BossName"] = _G.Classes[Turbine.Gameplay.Class.LoreMaster];
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["CompName"] = "Хитбольдские доспехи ярости";
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["CompName"] = "Хитбольдские доспехи ярости";
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем ярости",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6492,8 +6497,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники ярости",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6527,7 +6532,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764725,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764724,
@@ -6540,8 +6545,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка ярости",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6575,7 +6580,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764721,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764718,
@@ -6588,8 +6593,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки ярости",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6623,7 +6628,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764726,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764691,
@@ -6636,8 +6641,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи ярости",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6671,7 +6676,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][1]["Sets"],
    ["IconID"] = 1091764716,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764699,
@@ -6684,8 +6689,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги ярости",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6719,7 +6724,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764703,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764695,
@@ -6732,13 +6737,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][1]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["CompName"] = "Хитбольдские доспехи друга зверей";
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["CompName"] = "Хитбольдские доспехи друга зверей";
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем друга зверей",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6796,8 +6801,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники друга зверей",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6831,7 +6836,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764725,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764724,
@@ -6844,8 +6849,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка друга зверей",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6879,7 +6884,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764721,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764718,
@@ -6892,8 +6897,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки друга зверей",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6927,7 +6932,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764726,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764691,
@@ -6940,8 +6945,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи друга зверей",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -6975,7 +6980,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][1]["Sets"],
    ["IconID"] = 1091764716,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764699,
@@ -6988,8 +6993,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги друга зверей",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7023,7 +7028,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764703,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764695,
@@ -7036,13 +7041,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][2]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["CompName"] = "Хитбольдские доспехи древних знаний";
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["CompName"] = "Хитбольдские доспехи древних знаний";
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем древних знаний",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7100,8 +7105,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники древних знаний",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7135,7 +7140,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764725,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764724,
@@ -7148,8 +7153,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка древних знаний",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7183,7 +7188,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764721,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764718,
@@ -7196,8 +7201,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки древних знаний",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7231,7 +7236,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764726,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764691,
@@ -7244,8 +7249,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи древних знаний",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7279,7 +7284,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][1]["Sets"],
    ["IconID"] = 1091764716,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764699,
@@ -7292,8 +7297,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги древних знаний",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7327,7 +7332,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][8]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764703,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764695,
@@ -7340,17 +7345,17 @@ _G.Loots[11]["Instances"][2]["Bosses"][8]["Comps"][3]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][9] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][9]["BossName"] = _G.Classes[Turbine.Gameplay.Class.RuneKeeper];
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][9] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][9]["BossName"] = _G.Classes[Turbine.Gameplay.Class.RuneKeeper];
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["CompName"] = "Хитбольдские доспехи очищающего";
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["CompName"] = "Хитбольдские доспехи очищающего";
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем очищающего",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7408,8 +7413,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники очищающего",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7443,7 +7448,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764725,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764724,
@@ -7456,8 +7461,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка очищающего",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7491,7 +7496,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764721,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764718,
@@ -7504,8 +7509,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки очищающего",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7539,7 +7544,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764726,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764691,
@@ -7552,8 +7557,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи очищающего",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7587,7 +7592,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][1]["Sets"],
    ["IconID"] = 1091764716,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764699,
@@ -7600,8 +7605,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги очищающего",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7635,7 +7640,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][1]["Items"][1]["Sets"], 
    ["IconID"] = 1091764703,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764695,
@@ -7648,13 +7653,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][1]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["CompName"] = "Хитбольдские доспехи глашатая мира";
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["CompName"] = "Хитбольдские доспехи глашатая мира";
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем глашатая мира",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7712,8 +7717,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники глашатая мира",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7747,7 +7752,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764725,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764724,
@@ -7760,8 +7765,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка глашатая мира",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7795,7 +7800,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764721,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764718,
@@ -7808,8 +7813,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки глашатая мира",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7843,7 +7848,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764726,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764691,
@@ -7856,8 +7861,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи глашатая мира",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7891,7 +7896,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][1]["Sets"],
    ["IconID"] = 1091764716,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764699,
@@ -7904,8 +7909,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги глашатая мира",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -7939,7 +7944,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][2]["Items"][1]["Sets"], 
    ["IconID"] = 1091764703,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764695,
@@ -7952,13 +7957,13 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][2]["Items"][6] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3] = {};
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["CompName"] = "Хитбольдские доспехи громовержца";
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Term"] = "";
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3] = {};
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["CompName"] = "Хитбольдские доспехи громовержца";
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Term"] = "";
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"] = {};
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][1] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][1] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][1] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][1] = 
   {["ItemName"] = "Хитбольдский шлем громовержца",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -8016,8 +8021,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][1] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][2] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][2] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][2] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][2] = 
   {["ItemName"] = "Хитбольдские наплечники громовержца",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -8051,7 +8056,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][2] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764725,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764724,
@@ -8064,8 +8069,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][2] =
      };
   };
   
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][3] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][3] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][3] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][3] = 
   {["ItemName"] = "Хитбольдская куртка громовержца",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -8099,7 +8104,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764721,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764718,
@@ -8112,8 +8117,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][3] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][4] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][4] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][4] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][4] = 
   {["ItemName"] = "Хитбольдские перчатки громовержца",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -8147,7 +8152,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][4] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764726,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764691,
@@ -8160,8 +8165,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][4] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][5] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][5] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][5] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][5] = 
   {["ItemName"] = "Хитбольдские поножи громовержца",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -8195,7 +8200,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][1]["Sets"],
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][1]["Sets"],
    ["IconID"] = 1091764716,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764699,
@@ -8208,8 +8213,8 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][5] =
      };
   };
 
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][6] = _G.ItemData;
-_G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][6] = 
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][6] = _G.ItemData;
+_G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][6] = 
   {["ItemName"] = "Хитбольдские сапоги громовержца",
    ["Type"] = _G.ItemTypes.Armor_light,
    ["Unique"] = "",
@@ -8243,7 +8248,7 @@ _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][6] =
        ["TMitig"] = ""
      },   
    ["Other"] = "",
-   ["Sets"] = _G.Loots[11]["Instances"][2]["Bosses"][9]["Comps"][3]["Items"][1]["Sets"], 
+   ["Sets"] = _G.Loots[11]["Instances"][1]["Bosses"][9]["Comps"][3]["Items"][1]["Sets"], 
    ["IconID"] = 1091764703,
    ["BackGrID"] = 1090519044,
    ["ShadowGrID"] = 1091764695,

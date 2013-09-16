@@ -237,10 +237,10 @@ _G.Loots[3]["Instances"][3]["Bosses"][2]["Comps"][1]["Items"][1] =
        ["TMitig"] = ""
      },   
    ["Other"] = "При атаке: веростность повысить повысить восприимчивость противника к урону древнего гномьего типа.\nВероятность применения: 5%", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1090556453,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1090556455,
+   ["UnderGrID"] = 1090556454,
    ["ID"] = "0x70019605",
    ["Conditions"] = 
      {
@@ -802,10 +802,10 @@ _G.Loots[3]["Instances"][3]["Bosses"][3]["Comps"][2]["Items"][3] =
        ["TMitig"] = ""
      },   
    ["Other"] = "При атаке: вероятность повысить восприимчивость противника к урону древненго гномьего типа.\nВероятность применения: 5%", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1090557004,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1090557006,
+   ["UnderGrID"] = 1090557005,
    ["ID"] = "0x700195FC",
    ["Conditions"] = 
      {
@@ -894,10 +894,10 @@ _G.Loots[3]["Instances"][3]["Bosses"][3]["Comps"][2]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091575169,
    ["BackGrID"] = 1090519044,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091575168,
+   ["UnderGrID"] = 1091575167,
    ["ID"] = "0x7001EDE0",
    ["Conditions"] = 
      {

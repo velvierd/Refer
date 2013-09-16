@@ -100,6 +100,98 @@ _G.Loots[9]["Instances"][4]["Bosses"][1]["Comps"][1]["Items"][2] =
        ["min_Level"] = 75
      };
   };
+
+_G.Loots[9]["Instances"][4]["Bosses"][1]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[9]["Instances"][4]["Bosses"][1]["Comps"][1]["Items"][3] = 
+  {["ItemName"] = "Гвир-палвес",                                         
+   ["Type"] = _G.ItemTypes.Armor_light,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "224",
+   ["Stats"] = 
+     {
+       ["Morale"] = "",
+       ["Power"] = "",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "", 
+       ["Agility"] = "", 
+       ["Vitality"] = "+60", 
+       ["Will"] = "+60",
+       ["Fate"] = "+60", 
+       ["B"] = "",
+       ["P"] = "",
+       ["E"] = "",
+       ["FMast"] = "",
+       ["TMast"] = "", 
+       ["CritR"] = "+648",
+       ["inHeal"] = "",
+       ["Finesse"] = "+984",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1091667651,
+   ["BackGrID"] = 1090519043,
+   ["ShadowGrID"] = 1091667653,
+   ["UnderGrID"] = 1091667652,
+   ["ID"] = 1879226773,
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
+  
+_G.Loots[9]["Instances"][4]["Bosses"][1]["Comps"][1]["Items"][4] = _G.ItemData;
+_G.Loots[9]["Instances"][4]["Bosses"][1]["Comps"][1]["Items"][4] = 
+  {["ItemName"] = "Лхойр-тагур",                                         
+   ["Type"] = _G.ItemTypes.Necklace,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "",
+   ["Stats"] = 
+     {
+       ["Morale"] = "+316",
+       ["Power"] = "+139",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "", 
+       ["Agility"] = "", 
+       ["Vitality"] = "", 
+       ["Will"] = "+30",
+       ["Fate"] = "+30", 
+       ["B"] = "",
+       ["P"] = "",
+       ["E"] = "",
+       ["FMast"] = "",
+       ["TMast"] = "+324", 
+       ["CritR"] = "",
+       ["inHeal"] = "",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1091633575,
+   ["BackGrID"] = 1090519043,
+   ["ShadowGrID"] = 1091633577,
+   ["UnderGrID"] = 1091633576,
+   ["ID"] = 1879225874,
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
   
 _G.Loots[9]["Instances"][4]["Bosses"][1]["Comps"][2] = {};
 _G.Loots[9]["Instances"][4]["Bosses"][1]["Comps"][2]["CompName"] = _G.cComps[2];
@@ -337,7 +429,7 @@ _G.Loots[9]["Instances"][4]["Bosses"][1]["Comps"][2]["Items"][5] =
   };
 
 _G.Loots[9]["Instances"][4]["Bosses"][2] = {};
-_G.Loots[9]["Instances"][4]["Bosses"][2]["BossName"] = "Фашбраф";
+_G.Loots[9]["Instances"][4]["Bosses"][2]["BossName"] = "Фашбраф, Железнорукий";
 _G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"] = {};
 _G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][1] = {};
 _G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][1]["CompName"] = _G.cComps[1];
@@ -384,6 +476,98 @@ _G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][1]["Items"][1] =
    ["ShadowGrID"] = 1091692891,
    ["UnderGrID"] = 1091692890,
    ["ID"] = "0x7002B9B1",
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
+
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][1]["Items"][2] = _G.ItemData;
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][1]["Items"][2] = 
+  {["ItemName"] = "Рувел-сокас",                                         
+   ["Type"] = _G.ItemTypes.Armor_light,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "623",
+   ["Stats"] = 
+     {
+       ["Morale"] = "",
+       ["Power"] = "",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "+54.6",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "", 
+       ["Agility"] = "", 
+       ["Vitality"] = "+60", 
+       ["Will"] = "+60",
+       ["Fate"] = "", 
+       ["B"] = "",
+       ["P"] = "",
+       ["E"] = "",
+       ["FMast"] = "",
+       ["TMast"] = "+324", 
+       ["CritR"] = "",
+       ["inHeal"] = "",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1091692895,
+   ["BackGrID"] = 1090519043,
+   ["ShadowGrID"] = 1091692897,
+   ["UnderGrID"] = 1091692896,
+   ["ID"] = "0x7002B9B7",
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
+  
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][1]["Items"][3] = _G.ItemData;
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][1]["Items"][3] = 
+  {["ItemName"] = "Талгру-клог",                                         
+   ["Type"] = _G.ItemTypes.Back,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "458",
+   ["Stats"] = 
+     {
+       ["Morale"] = "",
+       ["Power"] = "",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "+30", 
+       ["Agility"] = "+30", 
+       ["Vitality"] = "+30", 
+       ["Will"] = "",
+       ["Fate"] = "", 
+       ["B"] = "",
+       ["P"] = "+324",
+       ["E"] = "+324",
+       ["FMast"] = "",
+       ["TMast"] = "", 
+       ["CritR"] = "",
+       ["inHeal"] = "",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1091692850,
+   ["BackGrID"] = 1090519043,
+   ["ShadowGrID"] = 1091692852,
+   ["UnderGrID"] = 1091692851,
+   ["ID"] = 1879225700,
    ["Conditions"] = 
      {
        ["min_Level"] = 75
@@ -625,6 +809,190 @@ _G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][2]["Items"][5] =
      };
   };
 
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][2]["Items"][6] = _G.ItemData;
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][2]["Items"][6] = 
+  {["ItemName"] = "Гладра-клог",                                         
+   ["Type"] = _G.ItemTypes.Armor_light,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "477",
+   ["Stats"] = 
+     {
+       ["Morale"] = "",
+       ["Power"] = "",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "+63", 
+       ["Agility"] = "", 
+       ["Vitality"] = "+63", 
+       ["Will"] = "",
+       ["Fate"] = "", 
+       ["B"] = "+336",
+       ["P"] = "",
+       ["E"] = "",
+       ["FMast"] = "",
+       ["TMast"] = "", 
+       ["CritR"] = "",
+       ["inHeal"] = "",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "+681",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1091692865,
+   ["BackGrID"] = 1090519043,
+   ["ShadowGrID"] = 1091692867,
+   ["UnderGrID"] = 1091692866,
+   ["ID"] = "0x7002B942",
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
+  
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][2]["Items"][7] = _G.ItemData;
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][2]["Items"][7] = 
+  {["ItemName"] = "Данас-кулх",                                         
+   ["Type"] = _G.ItemTypes.Ring,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "",
+   ["Stats"] = 
+     {
+       ["Morale"] = "",
+       ["Power"] = "",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "+55.8",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "", 
+       ["Agility"] = "+63", 
+       ["Vitality"] = "+63", 
+       ["Will"] = "",
+       ["Fate"] = "", 
+       ["B"] = "",
+       ["P"] = "",
+       ["E"] = "+336",
+       ["FMast"] = "",
+       ["TMast"] = "", 
+       ["CritR"] = "",
+       ["inHeal"] = "",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1091664931,
+   ["BackGrID"] = 1090519043,
+   ["ShadowGrID"] = 1091664933,
+   ["UnderGrID"] = 1091664932,
+   ["ID"] = "0x7002B1FD",
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
+  
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][2]["Items"][8] = _G.ItemData;
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][2]["Items"][8] = 
+  {["ItemName"] = "Дугнед-каэр",                                         
+   ["Type"] = _G.ItemTypes.Shield_heavy,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "2266",
+   ["Stats"] = 
+     {
+       ["Morale"] = "",
+       ["Power"] = "",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "+55.8",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "+63", 
+       ["Agility"] = "", 
+       ["Vitality"] = "+63", 
+       ["Will"] = "",
+       ["Fate"] = "", 
+       ["B"] = "+504",
+       ["P"] = "",
+       ["E"] = "-2%",
+       ["FMast"] = "",
+       ["TMast"] = "", 
+       ["CritR"] = "",
+       ["inHeal"] = "",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = ""
+     },   
+   ["Other"] = "+10% к защите в дальнем бою\n+1700 к уровню защиты от критических ударов", 
+   ["IconID"] = 1091667873,
+   ["BackGrID"] = 1090519043,
+   ["ShadowGrID"] = 1091667875,
+   ["UnderGrID"] = 1091667874,
+   ["ID"] = "0x7002B2D4",
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
+  
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][2]["Items"][9] = _G.ItemData;
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][2]["Items"][9] = 
+  {["ItemName"] = "Хаул-тагур",                                         
+   ["Type"] = _G.ItemTypes.Necklace,
+   ["Unique"] = "",
+   ["Damage"] = "",
+   ["DamageType"] = _G.DamageTypes.Non, 
+   ["DPS"] = "",  
+   ["Armour"] = "",
+   ["Stats"] = 
+     {
+       ["Morale"] = "",
+       ["Power"] = "",
+       ["MoraleInC"] = "",
+       ["PowerInC"] = "",
+       ["MoraleOutC"] = "",
+       ["PowerOutC"] = "",
+       ["Might"] = "+38", 
+       ["Agility"] = "", 
+       ["Vitality"] = "+38", 
+       ["Will"] = "",
+       ["Fate"] = "", 
+       ["B"] = "",
+       ["P"] = "",
+       ["E"] = "",
+       ["FMast"] = "",
+       ["TMast"] = "", 
+       ["CritR"] = "",
+       ["inHeal"] = "+1075",
+       ["Finesse"] = "",
+       ["Resist"] = "",
+       ["FMitig"] = "",
+       ["TMitig"] = "+1513"
+     },   
+   ["Other"] = "", 
+   ["IconID"] = 1091664922,
+   ["BackGrID"] = 1090519043,
+   ["ShadowGrID"] = 1091664924,
+   ["UnderGrID"] = 1091664923,
+   ["ID"] = "0x7002B571",
+   ["Conditions"] = 
+     {
+       ["min_Level"] = 75
+     };
+  };
+
 _G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][3] = {};
 _G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][3]["CompName"] = _G.cComps[3];
 _G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][3]["Term"] = "";
@@ -722,256 +1090,8 @@ _G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][3]["Items"][2] =
      };
   };
 
-_G.Loots[9]["Instances"][4]["Bosses"][3] = {};
-_G.Loots[9]["Instances"][4]["Bosses"][3]["BossName"] = "Железнорукий";
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"] = {};
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][1] = {};
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][1]["CompName"] = _G.cComps[1];
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][1]["Term"] = "";
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][1]["Items"] = {};
-  
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][1]["Items"][1] = _G.ItemData;
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][1]["Items"][1] = 
-  {["ItemName"] = "Рувел-сокас",                                         
-   ["Type"] = _G.ItemTypes.Armor_light,
-   ["Unique"] = "",
-   ["Damage"] = "",
-   ["DamageType"] = _G.DamageTypes.Non, 
-   ["DPS"] = "",  
-   ["Armour"] = "623",
-   ["Stats"] = 
-     {
-       ["Morale"] = "",
-       ["Power"] = "",
-       ["MoraleInC"] = "",
-       ["PowerInC"] = "+54.6",
-       ["MoraleOutC"] = "",
-       ["PowerOutC"] = "",
-       ["Might"] = "", 
-       ["Agility"] = "", 
-       ["Vitality"] = "+60", 
-       ["Will"] = "+60",
-       ["Fate"] = "", 
-       ["B"] = "",
-       ["P"] = "",
-       ["E"] = "",
-       ["FMast"] = "",
-       ["TMast"] = "+324", 
-       ["CritR"] = "",
-       ["inHeal"] = "",
-       ["Finesse"] = "",
-       ["Resist"] = "",
-       ["FMitig"] = "",
-       ["TMitig"] = ""
-     },   
-   ["Other"] = "", 
-   ["IconID"] = 1091692895,
-   ["BackGrID"] = 1090519043,
-   ["ShadowGrID"] = 1091692897,
-   ["UnderGrID"] = 1091692896,
-   ["ID"] = "0x7002B9B7",
-   ["Conditions"] = 
-     {
-       ["min_Level"] = 75
-     };
-  };
-
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2] = {};
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["CompName"] = _G.cComps[2];
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["Term"] = "";
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["Items"] = {};
-  
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["Items"][1] = _G.ItemData;
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["Items"][1] = 
-  {["ItemName"] = "Гладра-клог",                                         
-   ["Type"] = _G.ItemTypes.Armor_light,
-   ["Unique"] = "",
-   ["Damage"] = "",
-   ["DamageType"] = _G.DamageTypes.Non, 
-   ["DPS"] = "",  
-   ["Armour"] = "477",
-   ["Stats"] = 
-     {
-       ["Morale"] = "",
-       ["Power"] = "",
-       ["MoraleInC"] = "",
-       ["PowerInC"] = "",
-       ["MoraleOutC"] = "",
-       ["PowerOutC"] = "",
-       ["Might"] = "+63", 
-       ["Agility"] = "", 
-       ["Vitality"] = "+63", 
-       ["Will"] = "",
-       ["Fate"] = "", 
-       ["B"] = "+336",
-       ["P"] = "",
-       ["E"] = "",
-       ["FMast"] = "",
-       ["TMast"] = "", 
-       ["CritR"] = "",
-       ["inHeal"] = "",
-       ["Finesse"] = "",
-       ["Resist"] = "",
-       ["FMitig"] = "+681",
-       ["TMitig"] = ""
-     },   
-   ["Other"] = "", 
-   ["IconID"] = 1091692865,
-   ["BackGrID"] = 1090519043,
-   ["ShadowGrID"] = 1091692867,
-   ["UnderGrID"] = 1091692866,
-   ["ID"] = "0x7002B942",
-   ["Conditions"] = 
-     {
-       ["min_Level"] = 75
-     };
-  };
-  
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["Items"][2] = _G.ItemData;
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["Items"][2] = 
-  {["ItemName"] = "Данас-кулх",                                         
-   ["Type"] = _G.ItemTypes.Ring,
-   ["Unique"] = "",
-   ["Damage"] = "",
-   ["DamageType"] = _G.DamageTypes.Non, 
-   ["DPS"] = "",  
-   ["Armour"] = "",
-   ["Stats"] = 
-     {
-       ["Morale"] = "",
-       ["Power"] = "",
-       ["MoraleInC"] = "",
-       ["PowerInC"] = "+55.8",
-       ["MoraleOutC"] = "",
-       ["PowerOutC"] = "",
-       ["Might"] = "", 
-       ["Agility"] = "+63", 
-       ["Vitality"] = "+63", 
-       ["Will"] = "",
-       ["Fate"] = "", 
-       ["B"] = "",
-       ["P"] = "",
-       ["E"] = "+336",
-       ["FMast"] = "",
-       ["TMast"] = "", 
-       ["CritR"] = "",
-       ["inHeal"] = "",
-       ["Finesse"] = "",
-       ["Resist"] = "",
-       ["FMitig"] = "",
-       ["TMitig"] = ""
-     },   
-   ["Other"] = "", 
-   ["IconID"] = 1091664931,
-   ["BackGrID"] = 1090519043,
-   ["ShadowGrID"] = 1091664933,
-   ["UnderGrID"] = 1091664932,
-   ["ID"] = "0x7002B1FD",
-   ["Conditions"] = 
-     {
-       ["min_Level"] = 75
-     };
-  };
-  
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["Items"][3] = _G.ItemData;
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["Items"][3] = 
-  {["ItemName"] = "Дугнед-каэр",                                         
-   ["Type"] = _G.ItemTypes.Shield_heavy,
-   ["Unique"] = "",
-   ["Damage"] = "",
-   ["DamageType"] = _G.DamageTypes.Non, 
-   ["DPS"] = "",  
-   ["Armour"] = "2266",
-   ["Stats"] = 
-     {
-       ["Morale"] = "",
-       ["Power"] = "",
-       ["MoraleInC"] = "",
-       ["PowerInC"] = "+55.8",
-       ["MoraleOutC"] = "",
-       ["PowerOutC"] = "",
-       ["Might"] = "+63", 
-       ["Agility"] = "", 
-       ["Vitality"] = "+63", 
-       ["Will"] = "",
-       ["Fate"] = "", 
-       ["B"] = "+504",
-       ["P"] = "",
-       ["E"] = "-2%",
-       ["FMast"] = "",
-       ["TMast"] = "", 
-       ["CritR"] = "",
-       ["inHeal"] = "",
-       ["Finesse"] = "",
-       ["Resist"] = "",
-       ["FMitig"] = "",
-       ["TMitig"] = ""
-     },   
-   ["Other"] = "+10% к защите в дальнем бою\n+1700 к уровню защиты от критических ударов", 
-   ["IconID"] = 1091667873,
-   ["BackGrID"] = 1090519043,
-   ["ShadowGrID"] = 1091667875,
-   ["UnderGrID"] = 1091667874,
-   ["ID"] = "0x7002B2D4",
-   ["Conditions"] = 
-     {
-       ["min_Level"] = 75
-     };
-  };
-  
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["Items"][4] = _G.ItemData;
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][2]["Items"][4] = 
-  {["ItemName"] = "Хаул-тагур",                                         
-   ["Type"] = _G.ItemTypes.Necklace,
-   ["Unique"] = "",
-   ["Damage"] = "",
-   ["DamageType"] = _G.DamageTypes.Non, 
-   ["DPS"] = "",  
-   ["Armour"] = "",
-   ["Stats"] = 
-     {
-       ["Morale"] = "",
-       ["Power"] = "",
-       ["MoraleInC"] = "",
-       ["PowerInC"] = "",
-       ["MoraleOutC"] = "",
-       ["PowerOutC"] = "",
-       ["Might"] = "+38", 
-       ["Agility"] = "", 
-       ["Vitality"] = "+38", 
-       ["Will"] = "",
-       ["Fate"] = "", 
-       ["B"] = "",
-       ["P"] = "",
-       ["E"] = "",
-       ["FMast"] = "",
-       ["TMast"] = "", 
-       ["CritR"] = "",
-       ["inHeal"] = "+1075",
-       ["Finesse"] = "",
-       ["Resist"] = "",
-       ["FMitig"] = "",
-       ["TMitig"] = "+1513"
-     },   
-   ["Other"] = "", 
-   ["IconID"] = 1091664922,
-   ["BackGrID"] = 1090519043,
-   ["ShadowGrID"] = 1091664924,
-   ["UnderGrID"] = 1091664923,
-   ["ID"] = "0x7002B571",
-   ["Conditions"] = 
-     {
-       ["min_Level"] = 75
-     };
-  };
-
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][3] = {};
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][3]["CompName"] = _G.cComps[3];
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][3]["Term"] = "";
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][3]["Items"] = {};
-  
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][3]["Items"][1] = _G.ItemData;
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][3]["Items"][1] = 
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][3]["Items"][3] = _G.ItemData;
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][3]["Items"][3] = 
   {["ItemName"] = "Итилох",                                         
    ["Type"] = _G.ItemTypes.Earing,
    ["Unique"] = "",
@@ -1016,8 +1136,8 @@ _G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][3]["Items"][1] =
      };
   };
   
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][3]["Items"][2] = _G.ItemData;
-_G.Loots[9]["Instances"][4]["Bosses"][3]["Comps"][3]["Items"][2] = 
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][3]["Items"][4] = _G.ItemData;
+_G.Loots[9]["Instances"][4]["Bosses"][2]["Comps"][3]["Items"][4] = 
   {["ItemName"] = "Сархол",                                         
    ["Type"] = _G.ItemTypes.Back,
    ["Unique"] = "",

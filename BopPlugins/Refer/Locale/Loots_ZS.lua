@@ -760,10 +760,10 @@ _G.Loots[2]["Instances"][1]["Bosses"][2]["Comps"][1]["Items"][5] =
        ["TMitig"] = ""
      },   
    ["Other"] = "", 
-   ["IconID"] = vResPath.."nons.tga",
+   ["IconID"] = 1091464878,
    ["BackGrID"] = 1090519043,
-   ["ShadowGrID"] = 0,
-   ["UnderGrID"] = 0,
+   ["ShadowGrID"] = 1091464880,
+   ["UnderGrID"] = 1091464879,
    ["ID"] = "0x70010768",
    ["Conditions"]={["min_Level"] = "56"}
   };

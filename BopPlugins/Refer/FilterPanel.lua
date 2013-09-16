@@ -24,7 +24,7 @@ function CreateFilter(leftWin)
   UseFilter:SetForeColor(_G.clShadowWhite);
   UseFilter:SetCheckAlignment(Turbine.UI.CheckBox.MiddleLeft);
   UseFilter:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
-  UseFilter:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  UseFilter:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   UseFilter:SetFontStyle(Turbine.UI.FontStyle.Outline);
   UseFilter:SetText(_G.Captions.UseFilter);
   UseFilter:SetVisible(true);
@@ -44,7 +44,7 @@ function CreateFilter(leftWin)
   ResetButton:SetPosition(190, 5);
   ResetButton:SetSize(70, 18);
   ResetButton:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);  
-  ResetButton:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+  ResetButton:SetFont(Turbine.UI.Lotro.Font.Verdana14);
   ResetButton:SetFontStyle(Turbine.UI.FontStyle.Outline);
   ResetButton:SetText(_G.Captions.ResetButton);
   ResetButton:SetVisible(true);
@@ -63,7 +63,7 @@ function CreateFilter(leftWin)
     Item:SetForeColor(_G.clShadowWhite);
     Item:SetCheckAlignment(Turbine.UI.CheckBox.MiddleLeft);
     Item:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
-    Item:SetFont(Turbine.UI.Lotro.Font.TrajanPro13);
+    Item:SetFont(Turbine.UI.Lotro.Font.Verdana12);
     Item:SetFontStyle(Turbine.UI.FontStyle.Outline);
     Item.ID = _G.ItemStatsOrder[i];
     Item:SetText("    ".._G.ItemStatsName[_G.ItemStatsOrder[i]]);
