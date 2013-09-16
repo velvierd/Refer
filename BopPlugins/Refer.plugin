@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Plugin>
+	<Information>
+		<Name>Справочная</Name>
+		<Author>Ворожей</Author>
+		<Version>Версия 3.0.3</Version>
+		<Description>Справочная база, содержащая данные о луте в инстансах, прохождению инстансов, о сетовых предметах и деяниях на добродетели, а также сборник лучших костюмов руЛотро.</Description>
+		<Image>BopPlugins/Refer/Resource/Icon.tga</Image>
+	</Information>
+	<Package>BopPlugins.Refer.Main</Package>
+	<Configuration Apartment="Справочная" />
+</Plugin>

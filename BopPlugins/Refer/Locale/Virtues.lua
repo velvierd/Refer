@@ -1,0 +1,22 @@
+_G.Virtues = {};
+
+import (vLocalePath.."Virtues_Ver");  --Верность
+import (vLocalePath.."Virtues_Disc");  --Дисциплина
+import (vLocalePath.."Virtues_Id");  --Идеализм
+import (vLocalePath.."Virtues_Isc");  --Искернность
+import (vLocalePath.."Virtues_Krep");  --Крепость
+import (vLocalePath.."Virtues_Msrd");  --Милосердие
+import (vLocalePath.."Virtues_Mlst");  --Милость
+import (vLocalePath.."Virtues_Mudr");  --Мудрость
+import (vLocalePath.."Virtues_Pred");  --Преданность
+import (vLocalePath.."Virtues_Rven");  --Рвение
+import (vLocalePath.."Virtues_Resh");  --Решимость
+import (vLocalePath.."Virtues_Sstr");  --Сострадание
+import (vLocalePath.."Virtues_Soch");  --Сочувствие
+import (vLocalePath.."Virtues_Spr");  --Справедливость
+import (vLocalePath.."Virtues_Trpe");  --Терпение
+import (vLocalePath.."Virtues_Trpi");  --Терпимость
+import (vLocalePath.."Virtues_Uver");  --Уверенность
+import (vLocalePath.."Virtues_Hrab");  --Храбрость
+import (vLocalePath.."Virtues_Ches");  --Честь
+import (vLocalePath.."Virtues_Chis");  --Чистота
